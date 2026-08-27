@@ -1,0 +1,7 @@
+{
+  "name": "basic-listening-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node generate-manifest.js"
+  }
+}
