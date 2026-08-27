@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 1. manifest.json からドロップダウンを動的生成
   function initLessonList() {
-    fetch('./manifest.json')
+    // サブディレクトリやGitHub Pages環境での動作安定のため ./ を外した相対指定
+    fetch('manifest.json')
       .then(res => {
         if (!res.ok) {
           throw new Error(`manifest.json の取得に失敗しました (Status: ${res.status})`);
@@ -54,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!baseName) return;
 
     const audioExt = lessonMap[baseName] || '.mp3';
-    loadAudioAndJson(`./${baseName}${audioExt}`, `./${baseName}.json`);
+    loadAudioAndJson(`${baseName}${audioExt}`, `${baseName}.json`);
   });
 
   function loadAudioAndJson(audioUrl, jsonUrl) {
@@ -99,11 +100,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
       currentSentenceEl.appendChild(wordSpan);
 
+      // start と end が同じ値（幅0秒）の場合は、ハイライト用に最低0.1秒の幅を確保
+      const calculatedEnd = Number(item.end) <= Number(item.start) ? Number(item.start) + 0.1 : Number(item.end);
+
       wordElements.push({
         element: wordSpan,
         parentElement: currentSentenceEl,
-        start: item.start,
-        end: item.end === item.start ? item.start + 0.1 : item.end
+        start: Number(item.start),
+        end: calculatedEnd
       });
 
       if (/[.?!]$/.test(item.text.trim())) {
