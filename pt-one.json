@@ -1,0 +1,2972 @@
+[
+  {
+    "text": "Hello",
+    "start": 0.5,
+    "end": 0.5
+  },
+  {
+    "text": "everyone!",
+    "start": 0.5,
+    "end": 1.54
+  },
+  {
+    "text": "Welcome",
+    "start": 1.68,
+    "end": 1.78
+  },
+  {
+    "text": "to",
+    "start": 1.78,
+    "end": 2.0
+  },
+  {
+    "text": "Learn",
+    "start": 2.0,
+    "end": 2.2
+  },
+  {
+    "text": "English",
+    "start": 2.2,
+    "end": 2.54
+  },
+  {
+    "text": "in",
+    "start": 2.54,
+    "end": 2.78
+  },
+  {
+    "text": "English.",
+    "start": 2.78,
+    "end": 3.26
+  },
+  {
+    "text": "My",
+    "start": 3.8,
+    "end": 3.8
+  },
+  {
+    "text": "name",
+    "start": 3.8,
+    "end": 4.02
+  },
+  {
+    "text": "is",
+    "start": 4.02,
+    "end": 4.26
+  },
+  {
+    "text": "Karen,",
+    "start": 4.26,
+    "end": 4.84
+  },
+  {
+    "text": "and",
+    "start": 4.88,
+    "end": 4.92
+  },
+  {
+    "text": "I",
+    "start": 4.92,
+    "end": 5.02
+  },
+  {
+    "text": "am",
+    "start": 5.02,
+    "end": 5.1
+  },
+  {
+    "text": "your",
+    "start": 5.1,
+    "end": 5.22
+  },
+  {
+    "text": "guide",
+    "start": 5.22,
+    "end": 5.42
+  },
+  {
+    "text": "today.",
+    "start": 5.42,
+    "end": 5.92
+  },
+  {
+    "text": "In",
+    "start": 6.74,
+    "end": 6.74
+  },
+  {
+    "text": "this",
+    "start": 6.74,
+    "end": 6.94
+  },
+  {
+    "text": "lesson,",
+    "start": 6.94,
+    "end": 7.44
+  },
+  {
+    "text": "we",
+    "start": 7.78,
+    "end": 7.78
+  },
+  {
+    "text": "will",
+    "start": 7.78,
+    "end": 7.9
+  },
+  {
+    "text": "use",
+    "start": 7.9,
+    "end": 8.06
+  },
+  {
+    "text": "very",
+    "start": 8.06,
+    "end": 8.36
+  },
+  {
+    "text": "simple",
+    "start": 8.36,
+    "end": 8.84
+  },
+  {
+    "text": "English",
+    "start": 8.94,
+    "end": 9.18
+  },
+  {
+    "text": "words",
+    "start": 9.18,
+    "end": 9.52
+  },
+  {
+    "text": "to",
+    "start": 9.52,
+    "end": 9.8
+  },
+  {
+    "text": "learn",
+    "start": 9.8,
+    "end": 10.0
+  },
+  {
+    "text": "how",
+    "start": 10.0,
+    "end": 10.22
+  },
+  {
+    "text": "English",
+    "start": 10.22,
+    "end": 10.5
+  },
+  {
+    "text": "works.",
+    "start": 10.5,
+    "end": 10.82
+  },
+  {
+    "text": "You",
+    "start": 11.58,
+    "end": 11.62
+  },
+  {
+    "text": "do",
+    "start": 11.62,
+    "end": 11.72
+  },
+  {
+    "text": "not",
+    "start": 11.72,
+    "end": 11.9
+  },
+  {
+    "text": "need",
+    "start": 11.9,
+    "end": 12.12
+  },
+  {
+    "text": "to",
+    "start": 12.12,
+    "end": 12.28
+  },
+  {
+    "text": "use",
+    "start": 12.28,
+    "end": 12.46
+  },
+  {
+    "text": "Japanese.",
+    "start": 12.46,
+    "end": 12.91
+  },
+  {
+    "text": "Just",
+    "start": 13.66,
+    "end": 13.76
+  },
+  {
+    "text": "relax,",
+    "start": 13.76,
+    "end": 14.3
+  },
+  {
+    "text": "listen",
+    "start": 14.68,
+    "end": 14.86
+  },
+  {
+    "text": "carefully,",
+    "start": 14.86,
+    "end": 15.58
+  },
+  {
+    "text": "and",
+    "start": 15.74,
+    "end": 15.84
+  },
+  {
+    "text": "think",
+    "start": 15.84,
+    "end": 16.06
+  },
+  {
+    "text": "in",
+    "start": 16.06,
+    "end": 16.24
+  },
+  {
+    "text": "English.",
+    "start": 16.24,
+    "end": 16.44
+  },
+  {
+    "text": "Let's",
+    "start": 17.58,
+    "end": 17.8
+  },
+  {
+    "text": "start",
+    "start": 17.8,
+    "end": 17.98
+  },
+  {
+    "text": "with",
+    "start": 17.98,
+    "end": 18.16
+  },
+  {
+    "text": "our",
+    "start": 18.16,
+    "end": 18.26
+  },
+  {
+    "text": "first",
+    "start": 18.26,
+    "end": 18.56
+  },
+  {
+    "text": "topic.",
+    "start": 18.56,
+    "end": 18.98
+  },
+  {
+    "text": "Talking",
+    "start": 19.56,
+    "end": 19.76
+  },
+  {
+    "text": "about",
+    "start": 19.76,
+    "end": 20.02
+  },
+  {
+    "text": "what",
+    "start": 20.02,
+    "end": 20.22
+  },
+  {
+    "text": "is",
+    "start": 20.22,
+    "end": 20.34
+  },
+  {
+    "text": "happening",
+    "start": 20.34,
+    "end": 20.64
+  },
+  {
+    "text": "right",
+    "start": 20.64,
+    "end": 20.9
+  },
+  {
+    "text": "now.",
+    "start": 20.9,
+    "end": 21.0
+  },
+  {
+    "text": "Listen",
+    "start": 22.12,
+    "end": 22.2
+  },
+  {
+    "text": "to",
+    "start": 22.2,
+    "end": 22.48
+  },
+  {
+    "text": "these",
+    "start": 22.48,
+    "end": 22.64
+  },
+  {
+    "text": "three",
+    "start": 22.64,
+    "end": 22.88
+  },
+  {
+    "text": "sentences.",
+    "start": 22.88,
+    "end": 23.36
+  },
+  {
+    "text": "I",
+    "start": 24.58,
+    "end": 24.58
+  },
+  {
+    "text": "am",
+    "start": 24.58,
+    "end": 24.7
+  },
+  {
+    "text": "speaking.",
+    "start": 24.7,
+    "end": 25.0
+  },
+  {
+    "text": "You",
+    "start": 26.36,
+    "end": 26.36
+  },
+  {
+    "text": "are",
+    "start": 26.36,
+    "end": 26.5
+  },
+  {
+    "text": "listening.",
+    "start": 26.5,
+    "end": 26.85
+  },
+  {
+    "text": "We",
+    "start": 27.98,
+    "end": 28.04
+  },
+  {
+    "text": "are",
+    "start": 28.04,
+    "end": 28.18
+  },
+  {
+    "text": "learning.",
+    "start": 28.18,
+    "end": 28.53
+  },
+  {
+    "text": "Look",
+    "start": 29.58,
+    "end": 29.58
+  },
+  {
+    "text": "at",
+    "start": 29.58,
+    "end": 29.7
+  },
+  {
+    "text": "the",
+    "start": 29.7,
+    "end": 29.8
+  },
+  {
+    "text": "words.",
+    "start": 29.8,
+    "end": 30.1
+  },
+  {
+    "text": "We",
+    "start": 30.62,
+    "end": 30.62
+  },
+  {
+    "text": "use",
+    "start": 30.62,
+    "end": 30.84
+  },
+  {
+    "text": "words",
+    "start": 30.84,
+    "end": 31.02
+  },
+  {
+    "text": "like",
+    "start": 31.02,
+    "end": 31.26
+  },
+  {
+    "text": "am,",
+    "start": 31.26,
+    "end": 31.81
+  },
+  {
+    "text": "are,",
+    "start": 32.06,
+    "end": 32.3
+  },
+  {
+    "text": "or",
+    "start": 32.44,
+    "end": 32.46
+  },
+  {
+    "text": "is,",
+    "start": 32.46,
+    "end": 32.82
+  },
+  {
+    "text": "and",
+    "start": 32.82,
+    "end": 32.9
+  },
+  {
+    "text": "then",
+    "start": 32.9,
+    "end": 33.0
+  },
+  {
+    "text": "we",
+    "start": 33.0,
+    "end": 33.16
+  },
+  {
+    "text": "add",
+    "start": 33.16,
+    "end": 33.38
+  },
+  {
+    "text": "i-n-g",
+    "start": 33.38,
+    "end": 33.88
+  },
+  {
+    "text": "to",
+    "start": 33.88,
+    "end": 34.06
+  },
+  {
+    "text": "the",
+    "start": 34.06,
+    "end": 34.16
+  },
+  {
+    "text": "action",
+    "start": 34.16,
+    "end": 34.44
+  },
+  {
+    "text": "word.",
+    "start": 34.44,
+    "end": 34.78
+  },
+  {
+    "text": "Speaking.",
+    "start": 35.6,
+    "end": 35.86
+  },
+  {
+    "text": "Listening.",
+    "start": 36.42,
+    "end": 37.08
+  },
+  {
+    "text": "Learning.",
+    "start": 37.08,
+    "end": 37.38
+  },
+  {
+    "text": "Why",
+    "start": 38.3,
+    "end": 38.4
+  },
+  {
+    "text": "do",
+    "start": 38.4,
+    "end": 38.54
+  },
+  {
+    "text": "we",
+    "start": 38.54,
+    "end": 38.64
+  },
+  {
+    "text": "do",
+    "start": 38.64,
+    "end": 38.78
+  },
+  {
+    "text": "this?",
+    "start": 38.78,
+    "end": 38.96
+  },
+  {
+    "text": "Because",
+    "start": 39.52,
+    "end": 39.64
+  },
+  {
+    "text": "the",
+    "start": 39.64,
+    "end": 39.84
+  },
+  {
+    "text": "action",
+    "start": 39.84,
+    "end": 40.18
+  },
+  {
+    "text": "is",
+    "start": 40.18,
+    "end": 40.36
+  },
+  {
+    "text": "happening",
+    "start": 40.36,
+    "end": 40.7
+  },
+  {
+    "text": "at",
+    "start": 40.7,
+    "end": 40.9
+  },
+  {
+    "text": "this",
+    "start": 40.92,
+    "end": 41.02
+  },
+  {
+    "text": "very",
+    "start": 41.02,
+    "end": 41.3
+  },
+  {
+    "text": "second.",
+    "start": 41.3,
+    "end": 41.62
+  },
+  {
+    "text": "Here",
+    "start": 42.68,
+    "end": 42.8
+  },
+  {
+    "text": "is",
+    "start": 42.8,
+    "end": 42.96
+  },
+  {
+    "text": "an",
+    "start": 42.96,
+    "end": 43.04
+  },
+  {
+    "text": "example.",
+    "start": 43.04,
+    "end": 43.44
+  },
+  {
+    "text": "Imagine",
+    "start": 44.16,
+    "end": 44.26
+  },
+  {
+    "text": "you",
+    "start": 44.26,
+    "end": 44.46
+  },
+  {
+    "text": "call",
+    "start": 44.46,
+    "end": 44.62
+  },
+  {
+    "text": "your",
+    "start": 44.62,
+    "end": 44.76
+  },
+  {
+    "text": "friend,",
+    "start": 44.76,
+    "end": 45.08
+  },
+  {
+    "text": "Ken.",
+    "start": 45.16,
+    "end": 47.98
+  },
+  {
+    "text": "You",
+    "start": 49.34,
+    "end": 49.34
+  },
+  {
+    "text": "ask:",
+    "start": 49.34,
+    "end": 49.34
+  },
+  {
+    "text": "Hi",
+    "start": 49.34,
+    "end": 49.34
+  },
+  {
+    "text": "Ken,",
+    "start": 49.34,
+    "end": 49.34
+  },
+  {
+    "text": "what",
+    "start": 49.34,
+    "end": 49.34
+  },
+  {
+    "text": "are",
+    "start": 49.34,
+    "end": 49.34
+  },
+  {
+    "text": "you",
+    "start": 49.34,
+    "end": 49.34
+  },
+  {
+    "text": "doing?",
+    "start": 49.34,
+    "end": 49.34
+  },
+  {
+    "text": "Ken",
+    "start": 49.34,
+    "end": 49.34
+  },
+  {
+    "text": "says:",
+    "start": 49.34,
+    "end": 49.44
+  },
+  {
+    "text": "I",
+    "start": 49.66,
+    "end": 49.66
+  },
+  {
+    "text": "am",
+    "start": 49.66,
+    "end": 49.78
+  },
+  {
+    "text": "eating",
+    "start": 49.78,
+    "end": 49.98
+  },
+  {
+    "text": "lunch.",
+    "start": 49.98,
+    "end": 50.28
+  },
+  {
+    "text": "Ken",
+    "start": 51.32,
+    "end": 51.44
+  },
+  {
+    "text": "started",
+    "start": 51.44,
+    "end": 51.76
+  },
+  {
+    "text": "eating",
+    "start": 51.76,
+    "end": 52.04
+  },
+  {
+    "text": "five",
+    "start": 52.04,
+    "end": 52.38
+  },
+  {
+    "text": "minutes",
+    "start": 52.38,
+    "end": 52.68
+  },
+  {
+    "text": "ago,",
+    "start": 52.68,
+    "end": 53.14
+  },
+  {
+    "text": "and",
+    "start": 53.28,
+    "end": 53.28
+  },
+  {
+    "text": "he",
+    "start": 53.28,
+    "end": 53.44
+  },
+  {
+    "text": "is",
+    "start": 53.44,
+    "end": 53.52
+  },
+  {
+    "text": "still",
+    "start": 53.52,
+    "end": 53.72
+  },
+  {
+    "text": "eating",
+    "start": 53.72,
+    "end": 54.0
+  },
+  {
+    "text": "now.",
+    "start": 54.0,
+    "end": 54.22
+  },
+  {
+    "text": "The",
+    "start": 54.94,
+    "end": 54.94
+  },
+  {
+    "text": "action",
+    "start": 54.98,
+    "end": 55.3
+  },
+  {
+    "text": "is",
+    "start": 55.3,
+    "end": 55.54
+  },
+  {
+    "text": "not",
+    "start": 55.54,
+    "end": 55.72
+  },
+  {
+    "text": "finished.",
+    "start": 55.72,
+    "end": 56.24
+  },
+  {
+    "text": "So",
+    "start": 56.76,
+    "end": 56.82
+  },
+  {
+    "text": "he",
+    "start": 56.82,
+    "end": 56.98
+  },
+  {
+    "text": "says,",
+    "start": 56.98,
+    "end": 57.4
+  },
+  {
+    "text": "I",
+    "start": 57.66,
+    "end": 57.66
+  },
+  {
+    "text": "am",
+    "start": 57.66,
+    "end": 57.8
+  },
+  {
+    "text": "eating",
+    "start": 57.8,
+    "end": 58.02
+  },
+  {
+    "text": "lunch.",
+    "start": 58.02,
+    "end": 58.42
+  },
+  {
+    "text": "Now,",
+    "start": 59.5,
+    "end": 59.8
+  },
+  {
+    "text": "let's",
+    "start": 59.98,
+    "end": 60.08
+  },
+  {
+    "text": "learn",
+    "start": 60.08,
+    "end": 60.22
+  },
+  {
+    "text": "the",
+    "start": 60.22,
+    "end": 60.36
+  },
+  {
+    "text": "difference",
+    "start": 60.36,
+    "end": 60.62
+  },
+  {
+    "text": "between",
+    "start": 60.62,
+    "end": 61.02
+  },
+  {
+    "text": "doing",
+    "start": 61.02,
+    "end": 61.28
+  },
+  {
+    "text": "something",
+    "start": 61.28,
+    "end": 61.58
+  },
+  {
+    "text": "right",
+    "start": 61.58,
+    "end": 61.86
+  },
+  {
+    "text": "now,",
+    "start": 61.86,
+    "end": 62.12
+  },
+  {
+    "text": "and",
+    "start": 62.66,
+    "end": 62.74
+  },
+  {
+    "text": "doing",
+    "start": 62.74,
+    "end": 62.96
+  },
+  {
+    "text": "something",
+    "start": 62.96,
+    "end": 63.3
+  },
+  {
+    "text": "every",
+    "start": 63.3,
+    "end": 63.68
+  },
+  {
+    "text": "day.",
+    "start": 63.68,
+    "end": 63.94
+  },
+  {
+    "text": "Listen",
+    "start": 64.94,
+    "end": 65.06
+  },
+  {
+    "text": "to",
+    "start": 65.06,
+    "end": 65.3
+  },
+  {
+    "text": "sentence",
+    "start": 65.3,
+    "end": 65.6
+  },
+  {
+    "text": "A.",
+    "start": 65.6,
+    "end": 66.16
+  },
+  {
+    "text": "I",
+    "start": 67.02,
+    "end": 67.02
+  },
+  {
+    "text": "eat",
+    "start": 67.02,
+    "end": 67.24
+  },
+  {
+    "text": "breakfast",
+    "start": 67.24,
+    "end": 67.6
+  },
+  {
+    "text": "every",
+    "start": 67.6,
+    "end": 68.02
+  },
+  {
+    "text": "morning.",
+    "start": 68.02,
+    "end": 68.42
+  },
+  {
+    "text": "Listen",
+    "start": 69.38,
+    "end": 69.48
+  },
+  {
+    "text": "to",
+    "start": 69.48,
+    "end": 69.76
+  },
+  {
+    "text": "sentence",
+    "start": 69.76,
+    "end": 70.04
+  },
+  {
+    "text": "B.",
+    "start": 70.04,
+    "end": 70.44
+  },
+  {
+    "text": "I",
+    "start": 71.36,
+    "end": 71.36
+  },
+  {
+    "text": "am",
+    "start": 71.36,
+    "end": 71.48
+  },
+  {
+    "text": "eating",
+    "start": 71.48,
+    "end": 71.74
+  },
+  {
+    "text": "breakfast.",
+    "start": 71.74,
+    "end": 72.28
+  },
+  {
+    "text": "Sentence",
+    "start": 73.3,
+    "end": 73.58
+  },
+  {
+    "text": "A",
+    "start": 73.58,
+    "end": 73.82
+  },
+  {
+    "text": "is",
+    "start": 73.82,
+    "end": 74.08
+  },
+  {
+    "text": "a",
+    "start": 74.08,
+    "end": 74.16
+  },
+  {
+    "text": "daily",
+    "start": 74.16,
+    "end": 74.4
+  },
+  {
+    "text": "routine.",
+    "start": 74.4,
+    "end": 75.0
+  },
+  {
+    "text": "You",
+    "start": 75.6,
+    "end": 75.62
+  },
+  {
+    "text": "do",
+    "start": 75.62,
+    "end": 75.7
+  },
+  {
+    "text": "it",
+    "start": 75.7,
+    "end": 75.82
+  },
+  {
+    "text": "on",
+    "start": 75.82,
+    "end": 75.94
+  },
+  {
+    "text": "Monday,",
+    "start": 75.94,
+    "end": 76.24
+  },
+  {
+    "text": "Tuesday,",
+    "start": 76.74,
+    "end": 77.1
+  },
+  {
+    "text": "Wednesday,",
+    "start": 77.14,
+    "end": 77.58
+  },
+  {
+    "text": "every",
+    "start": 77.7,
+    "end": 77.88
+  },
+  {
+    "text": "day.",
+    "start": 77.88,
+    "end": 78.1
+  },
+  {
+    "text": "For",
+    "start": 78.66,
+    "end": 78.76
+  },
+  {
+    "text": "habits,",
+    "start": 78.76,
+    "end": 79.26
+  },
+  {
+    "text": "we",
+    "start": 79.26,
+    "end": 79.32
+  },
+  {
+    "text": "say,",
+    "start": 79.32,
+    "end": 79.68
+  },
+  {
+    "text": "I",
+    "start": 79.76,
+    "end": 79.76
+  },
+  {
+    "text": "eat.",
+    "start": 79.76,
+    "end": 79.86
+  },
+  {
+    "text": "Sentence",
+    "start": 80.9,
+    "end": 81.18
+  },
+  {
+    "text": "B",
+    "start": 81.18,
+    "end": 81.38
+  },
+  {
+    "text": "means",
+    "start": 81.38,
+    "end": 81.58
+  },
+  {
+    "text": "right",
+    "start": 81.58,
+    "end": 81.84
+  },
+  {
+    "text": "now!",
+    "start": 81.84,
+    "end": 82.22
+  },
+  {
+    "text": "The",
+    "start": 82.46,
+    "end": 82.5
+  },
+  {
+    "text": "food",
+    "start": 82.6,
+    "end": 82.76
+  },
+  {
+    "text": "is",
+    "start": 82.76,
+    "end": 82.92
+  },
+  {
+    "text": "on",
+    "start": 82.92,
+    "end": 83.02
+  },
+  {
+    "text": "your",
+    "start": 83.02,
+    "end": 83.12
+  },
+  {
+    "text": "table.",
+    "start": 83.12,
+    "end": 83.42
+  },
+  {
+    "text": "You",
+    "start": 83.86,
+    "end": 83.94
+  },
+  {
+    "text": "are",
+    "start": 83.94,
+    "end": 84.02
+  },
+  {
+    "text": "chewing",
+    "start": 84.02,
+    "end": 84.28
+  },
+  {
+    "text": "right",
+    "start": 84.28,
+    "end": 84.52
+  },
+  {
+    "text": "now.",
+    "start": 84.52,
+    "end": 84.72
+  },
+  {
+    "text": "Let's",
+    "start": 85.64,
+    "end": 85.9
+  },
+  {
+    "text": "try",
+    "start": 85.96,
+    "end": 86.06
+  },
+  {
+    "text": "a",
+    "start": 86.06,
+    "end": 86.2
+  },
+  {
+    "text": "short",
+    "start": 86.2,
+    "end": 86.4
+  },
+  {
+    "text": "story",
+    "start": 86.4,
+    "end": 86.82
+  },
+  {
+    "text": "to",
+    "start": 86.82,
+    "end": 86.98
+  },
+  {
+    "text": "test",
+    "start": 86.98,
+    "end": 87.18
+  },
+  {
+    "text": "your",
+    "start": 87.18,
+    "end": 87.38
+  },
+  {
+    "text": "ears.",
+    "start": 87.38,
+    "end": 87.56
+  },
+  {
+    "text": "This",
+    "start": 88.56,
+    "end": 88.66
+  },
+  {
+    "text": "is",
+    "start": 88.66,
+    "end": 88.82
+  },
+  {
+    "text": "Lisa.",
+    "start": 88.82,
+    "end": 89.22
+  },
+  {
+    "text": "Lisa",
+    "start": 89.72,
+    "end": 89.94
+  },
+  {
+    "text": "is",
+    "start": 89.94,
+    "end": 90.14
+  },
+  {
+    "text": "a",
+    "start": 90.14,
+    "end": 90.24
+  },
+  {
+    "text": "bus",
+    "start": 90.24,
+    "end": 90.38
+  },
+  {
+    "text": "driver.",
+    "start": 90.38,
+    "end": 90.48
+  },
+  {
+    "text": "She",
+    "start": 91.4,
+    "end": 91.4
+  },
+  {
+    "text": "drives",
+    "start": 91.4,
+    "end": 91.66
+  },
+  {
+    "text": "a",
+    "start": 91.66,
+    "end": 91.84
+  },
+  {
+    "text": "bus",
+    "start": 91.84,
+    "end": 91.96
+  },
+  {
+    "text": "every",
+    "start": 91.96,
+    "end": 92.38
+  },
+  {
+    "text": "day.",
+    "start": 92.38,
+    "end": 93.03
+  },
+  {
+    "text": "But",
+    "start": 93.14,
+    "end": 93.14
+  },
+  {
+    "text": "look",
+    "start": 93.14,
+    "end": 93.28
+  },
+  {
+    "text": "at",
+    "start": 93.28,
+    "end": 93.44
+  },
+  {
+    "text": "her",
+    "start": 93.44,
+    "end": 93.54
+  },
+  {
+    "text": "now.",
+    "start": 93.54,
+    "end": 93.89
+  },
+  {
+    "text": "She",
+    "start": 94.4,
+    "end": 94.4
+  },
+  {
+    "text": "is",
+    "start": 94.4,
+    "end": 94.54
+  },
+  {
+    "text": "not",
+    "start": 94.54,
+    "end": 94.72
+  },
+  {
+    "text": "driving",
+    "start": 94.72,
+    "end": 95.1
+  },
+  {
+    "text": "a",
+    "start": 95.1,
+    "end": 95.22
+  },
+  {
+    "text": "bus.",
+    "start": 95.22,
+    "end": 95.42
+  },
+  {
+    "text": "She",
+    "start": 96.06,
+    "end": 96.14
+  },
+  {
+    "text": "is",
+    "start": 96.14,
+    "end": 96.28
+  },
+  {
+    "text": "sitting",
+    "start": 96.28,
+    "end": 96.5
+  },
+  {
+    "text": "in",
+    "start": 96.5,
+    "end": 96.66
+  },
+  {
+    "text": "a",
+    "start": 96.66,
+    "end": 96.72
+  },
+  {
+    "text": "café,",
+    "start": 96.72,
+    "end": 97.12
+  },
+  {
+    "text": "and",
+    "start": 97.48,
+    "end": 97.48
+  },
+  {
+    "text": "she",
+    "start": 97.48,
+    "end": 97.64
+  },
+  {
+    "text": "is",
+    "start": 97.64,
+    "end": 97.8
+  },
+  {
+    "text": "drinking",
+    "start": 97.8,
+    "end": 98.02
+  },
+  {
+    "text": "tea.",
+    "start": 98.02,
+    "end": 98.42
+  },
+  {
+    "text": "Ask",
+    "start": 99.36,
+    "end": 99.58
+  },
+  {
+    "text": "yourself:",
+    "start": 99.58,
+    "end": 100.02
+  },
+  {
+    "text": "What",
+    "start": 100.38,
+    "end": 100.38
+  },
+  {
+    "text": "does",
+    "start": 100.38,
+    "end": 100.48
+  },
+  {
+    "text": "she",
+    "start": 100.48,
+    "end": 100.64
+  },
+  {
+    "text": "do",
+    "start": 100.64,
+    "end": 100.78
+  },
+  {
+    "text": "every",
+    "start": 100.78,
+    "end": 101.08
+  },
+  {
+    "text": "day?",
+    "start": 101.08,
+    "end": 101.32
+  },
+  {
+    "text": "She",
+    "start": 101.76,
+    "end": 101.8
+  },
+  {
+    "text": "drives",
+    "start": 101.8,
+    "end": 102.08
+  },
+  {
+    "text": "a",
+    "start": 102.08,
+    "end": 102.2
+  },
+  {
+    "text": "bus.",
+    "start": 102.2,
+    "end": 102.38
+  },
+  {
+    "text": "What",
+    "start": 103.36,
+    "end": 103.46
+  },
+  {
+    "text": "is",
+    "start": 103.46,
+    "end": 103.58
+  },
+  {
+    "text": "she",
+    "start": 103.58,
+    "end": 103.72
+  },
+  {
+    "text": "doing",
+    "start": 103.72,
+    "end": 103.94
+  },
+  {
+    "text": "right",
+    "start": 103.94,
+    "end": 104.16
+  },
+  {
+    "text": "now?",
+    "start": 104.16,
+    "end": 104.54
+  },
+  {
+    "text": "She",
+    "start": 104.8,
+    "end": 104.88
+  },
+  {
+    "text": "is",
+    "start": 104.88,
+    "end": 105.02
+  },
+  {
+    "text": "drinking",
+    "start": 105.02,
+    "end": 105.3
+  },
+  {
+    "text": "tea.",
+    "start": 105.3,
+    "end": 105.78
+  },
+  {
+    "text": "Next,",
+    "start": 106.62,
+    "end": 107.18
+  },
+  {
+    "text": "let's",
+    "start": 107.3,
+    "end": 107.4
+  },
+  {
+    "text": "learn",
+    "start": 107.42,
+    "end": 107.52
+  },
+  {
+    "text": "how",
+    "start": 107.52,
+    "end": 107.68
+  },
+  {
+    "text": "to",
+    "start": 107.68,
+    "end": 107.78
+  },
+  {
+    "text": "connect",
+    "start": 107.78,
+    "end": 108.0
+  },
+  {
+    "text": "two",
+    "start": 108.0,
+    "end": 108.34
+  },
+  {
+    "text": "sentences",
+    "start": 108.34,
+    "end": 108.7
+  },
+  {
+    "text": "using",
+    "start": 108.7,
+    "end": 109.18
+  },
+  {
+    "text": "three",
+    "start": 109.18,
+    "end": 109.5
+  },
+  {
+    "text": "simple",
+    "start": 109.5,
+    "end": 109.84
+  },
+  {
+    "text": "words:",
+    "start": 109.84,
+    "end": 110.18
+  },
+  {
+    "text": "because,",
+    "start": 110.82,
+    "end": 111.16
+  },
+  {
+    "text": "so,",
+    "start": 111.34,
+    "end": 111.68
+  },
+  {
+    "text": "and",
+    "start": 111.78,
+    "end": 111.9
+  },
+  {
+    "text": "but.",
+    "start": 111.9,
+    "end": 112.1
+  },
+  {
+    "text": "Listen",
+    "start": 113.04,
+    "end": 113.18
+  },
+  {
+    "text": "to",
+    "start": 113.18,
+    "end": 113.42
+  },
+  {
+    "text": "this",
+    "start": 113.42,
+    "end": 113.54
+  },
+  {
+    "text": "story.",
+    "start": 113.54,
+    "end": 113.92
+  },
+  {
+    "text": "Tom",
+    "start": 114.94,
+    "end": 114.94
+  },
+  {
+    "text": "is",
+    "start": 114.94,
+    "end": 115.16
+  },
+  {
+    "text": "very",
+    "start": 115.16,
+    "end": 115.44
+  },
+  {
+    "text": "tired",
+    "start": 115.44,
+    "end": 115.78
+  },
+  {
+    "text": "today.",
+    "start": 115.78,
+    "end": 116.48
+  },
+  {
+    "text": "Why?",
+    "start": 116.84,
+    "end": 117.08
+  },
+  {
+    "text": "Because",
+    "start": 117.3,
+    "end": 117.42
+  },
+  {
+    "text": "he",
+    "start": 117.42,
+    "end": 117.56
+  },
+  {
+    "text": "slept",
+    "start": 117.56,
+    "end": 117.78
+  },
+  {
+    "text": "late",
+    "start": 117.78,
+    "end": 118.06
+  },
+  {
+    "text": "last",
+    "start": 118.06,
+    "end": 118.3
+  },
+  {
+    "text": "night.",
+    "start": 118.3,
+    "end": 118.54
+  },
+  {
+    "text": "So,",
+    "start": 119.08,
+    "end": 119.38
+  },
+  {
+    "text": "he",
+    "start": 119.48,
+    "end": 119.48
+  },
+  {
+    "text": "is",
+    "start": 119.48,
+    "end": 119.58
+  },
+  {
+    "text": "sleeping",
+    "start": 119.58,
+    "end": 119.92
+  },
+  {
+    "text": "now.",
+    "start": 119.92,
+    "end": 120.44
+  },
+  {
+    "text": "But",
+    "start": 120.78,
+    "end": 120.84
+  },
+  {
+    "text": "he",
+    "start": 120.84,
+    "end": 120.92
+  },
+  {
+    "text": "has",
+    "start": 120.92,
+    "end": 121.04
+  },
+  {
+    "text": "a",
+    "start": 121.04,
+    "end": 121.16
+  },
+  {
+    "text": "lot",
+    "start": 121.16,
+    "end": 121.3
+  },
+  {
+    "text": "of",
+    "start": 121.3,
+    "end": 121.48
+  },
+  {
+    "text": "homework",
+    "start": 121.5,
+    "end": 121.7
+  },
+  {
+    "text": "to",
+    "start": 121.7,
+    "end": 121.94
+  },
+  {
+    "text": "do.",
+    "start": 121.94,
+    "end": 122.16
+  },
+  {
+    "text": "Let's",
+    "start": 123.24,
+    "end": 123.34
+  },
+  {
+    "text": "look",
+    "start": 123.34,
+    "end": 123.46
+  },
+  {
+    "text": "at",
+    "start": 123.46,
+    "end": 123.58
+  },
+  {
+    "text": "those",
+    "start": 123.58,
+    "end": 123.74
+  },
+  {
+    "text": "three",
+    "start": 123.74,
+    "end": 124.0
+  },
+  {
+    "text": "words.",
+    "start": 124.0,
+    "end": 124.24
+  },
+  {
+    "text": "First,",
+    "start": 125.28,
+    "end": 125.62
+  },
+  {
+    "text": "because",
+    "start": 125.96,
+    "end": 125.98
+  },
+  {
+    "text": "gives",
+    "start": 125.98,
+    "end": 126.24
+  },
+  {
+    "text": "us",
+    "start": 126.24,
+    "end": 126.44
+  },
+  {
+    "text": "the",
+    "start": 126.44,
+    "end": 126.58
+  },
+  {
+    "text": "reason.",
+    "start": 126.58,
+    "end": 126.86
+  },
+  {
+    "text": "Why",
+    "start": 127.86,
+    "end": 127.98
+  },
+  {
+    "text": "is",
+    "start": 127.98,
+    "end": 128.18
+  },
+  {
+    "text": "Tom",
+    "start": 128.18,
+    "end": 128.36
+  },
+  {
+    "text": "tired?",
+    "start": 128.36,
+    "end": 128.86
+  },
+  {
+    "text": "Because",
+    "start": 129.24,
+    "end": 129.36
+  },
+  {
+    "text": "he",
+    "start": 129.36,
+    "end": 129.5
+  },
+  {
+    "text": "slept",
+    "start": 129.5,
+    "end": 129.74
+  },
+  {
+    "text": "late.",
+    "start": 129.74,
+    "end": 130.14
+  },
+  {
+    "text": "Second,",
+    "start": 131.04,
+    "end": 131.44
+  },
+  {
+    "text": "so",
+    "start": 131.64,
+    "end": 131.64
+  },
+  {
+    "text": "gives",
+    "start": 131.64,
+    "end": 131.82
+  },
+  {
+    "text": "us",
+    "start": 131.82,
+    "end": 132.02
+  },
+  {
+    "text": "the",
+    "start": 132.02,
+    "end": 132.16
+  },
+  {
+    "text": "result.",
+    "start": 132.16,
+    "end": 132.5
+  },
+  {
+    "text": "He",
+    "start": 133.42,
+    "end": 133.52
+  },
+  {
+    "text": "slept",
+    "start": 133.52,
+    "end": 133.76
+  },
+  {
+    "text": "late,",
+    "start": 133.76,
+    "end": 134.18
+  },
+  {
+    "text": "so",
+    "start": 134.36,
+    "end": 134.46
+  },
+  {
+    "text": "he",
+    "start": 134.46,
+    "end": 134.62
+  },
+  {
+    "text": "is",
+    "start": 134.62,
+    "end": 134.74
+  },
+  {
+    "text": "tired",
+    "start": 134.8,
+    "end": 135.06
+  },
+  {
+    "text": "now.",
+    "start": 135.06,
+    "end": 135.3
+  },
+  {
+    "text": "Third,",
+    "start": 136.32,
+    "end": 136.64
+  },
+  {
+    "text": "but",
+    "start": 136.8,
+    "end": 136.8
+  },
+  {
+    "text": "shows",
+    "start": 136.8,
+    "end": 136.96
+  },
+  {
+    "text": "a",
+    "start": 136.96,
+    "end": 137.12
+  },
+  {
+    "text": "contrast",
+    "start": 137.2,
+    "end": 137.5
+  },
+  {
+    "text": "or",
+    "start": 137.5,
+    "end": 137.86
+  },
+  {
+    "text": "surprise.",
+    "start": 137.86,
+    "end": 138.34
+  },
+  {
+    "text": "Tom",
+    "start": 139.38,
+    "end": 139.4
+  },
+  {
+    "text": "is",
+    "start": 139.4,
+    "end": 139.58
+  },
+  {
+    "text": "tired,",
+    "start": 139.58,
+    "end": 140.28
+  },
+  {
+    "text": "but",
+    "start": 140.28,
+    "end": 140.32
+  },
+  {
+    "text": "he",
+    "start": 140.32,
+    "end": 140.42
+  },
+  {
+    "text": "has",
+    "start": 140.42,
+    "end": 140.58
+  },
+  {
+    "text": "homework.",
+    "start": 140.58,
+    "end": 140.94
+  },
+  {
+    "text": "Using",
+    "start": 141.92,
+    "end": 142.04
+  },
+  {
+    "text": "because,",
+    "start": 142.04,
+    "end": 142.52
+  },
+  {
+    "text": "so,",
+    "start": 142.7,
+    "end": 142.86
+  },
+  {
+    "text": "and",
+    "start": 143.24,
+    "end": 143.3
+  },
+  {
+    "text": "but",
+    "start": 143.3,
+    "end": 143.4
+  },
+  {
+    "text": "helps",
+    "start": 143.4,
+    "end": 143.6
+  },
+  {
+    "text": "your",
+    "start": 143.6,
+    "end": 143.8
+  },
+  {
+    "text": "English",
+    "start": 143.8,
+    "end": 144.06
+  },
+  {
+    "text": "sound",
+    "start": 144.06,
+    "end": 144.42
+  },
+  {
+    "text": "natural",
+    "start": 144.42,
+    "end": 144.88
+  },
+  {
+    "text": "and",
+    "start": 144.88,
+    "end": 145.12
+  },
+  {
+    "text": "smooth.",
+    "start": 145.12,
+    "end": 145.42
+  },
+  {
+    "text": "Now,",
+    "start": 146.38,
+    "end": 146.84
+  },
+  {
+    "text": "let's",
+    "start": 146.86,
+    "end": 147.06
+  },
+  {
+    "text": "practice",
+    "start": 147.14,
+    "end": 147.4
+  },
+  {
+    "text": "listening",
+    "start": 147.4,
+    "end": 147.84
+  },
+  {
+    "text": "and",
+    "start": 147.84,
+    "end": 148.08
+  },
+  {
+    "text": "answering",
+    "start": 148.08,
+    "end": 148.44
+  },
+  {
+    "text": "questions.",
+    "start": 148.44,
+    "end": 149.16
+  },
+  {
+    "text": "I",
+    "start": 149.62,
+    "end": 149.7
+  },
+  {
+    "text": "will",
+    "start": 149.7,
+    "end": 149.8
+  },
+  {
+    "text": "read",
+    "start": 149.8,
+    "end": 149.98
+  },
+  {
+    "text": "a",
+    "start": 149.98,
+    "end": 150.12
+  },
+  {
+    "text": "short",
+    "start": 150.12,
+    "end": 150.3
+  },
+  {
+    "text": "story.",
+    "start": 150.3,
+    "end": 150.74
+  },
+  {
+    "text": "Then",
+    "start": 151.34,
+    "end": 151.48
+  },
+  {
+    "text": "I",
+    "start": 151.48,
+    "end": 151.7
+  },
+  {
+    "text": "will",
+    "start": 151.7,
+    "end": 151.8
+  },
+  {
+    "text": "ask",
+    "start": 151.8,
+    "end": 152.08
+  },
+  {
+    "text": "you",
+    "start": 152.14,
+    "end": 152.24
+  },
+  {
+    "text": "three",
+    "start": 152.24,
+    "end": 152.46
+  },
+  {
+    "text": "questions.",
+    "start": 152.46,
+    "end": 153.01
+  },
+  {
+    "text": "Try",
+    "start": 153.64,
+    "end": 153.74
+  },
+  {
+    "text": "to",
+    "start": 153.74,
+    "end": 153.92
+  },
+  {
+    "text": "answer",
+    "start": 153.92,
+    "end": 154.22
+  },
+  {
+    "text": "in",
+    "start": 154.24,
+    "end": 154.38
+  },
+  {
+    "text": "your",
+    "start": 154.38,
+    "end": 154.48
+  },
+  {
+    "text": "head",
+    "start": 154.48,
+    "end": 154.74
+  },
+  {
+    "text": "or",
+    "start": 154.74,
+    "end": 154.96
+  },
+  {
+    "text": "out",
+    "start": 154.96,
+    "end": 155.24
+  },
+  {
+    "text": "loud",
+    "start": 155.24,
+    "end": 155.44
+  },
+  {
+    "text": "in",
+    "start": 155.44,
+    "end": 155.66
+  },
+  {
+    "text": "English.",
+    "start": 155.66,
+    "end": 156.16
+  },
+  {
+    "text": "Here",
+    "start": 157.0,
+    "end": 157.12
+  },
+  {
+    "text": "is",
+    "start": 157.12,
+    "end": 157.28
+  },
+  {
+    "text": "the",
+    "start": 157.28,
+    "end": 157.4
+  },
+  {
+    "text": "story.",
+    "start": 157.4,
+    "end": 157.8
+  },
+  {
+    "text": "Yesterday",
+    "start": 159.06,
+    "end": 159.06
+  },
+  {
+    "text": "was",
+    "start": 159.06,
+    "end": 159.3
+  },
+  {
+    "text": "Sunday.",
+    "start": 159.3,
+    "end": 159.64
+  },
+  {
+    "text": "The",
+    "start": 160.22,
+    "end": 160.22
+  },
+  {
+    "text": "weather",
+    "start": 160.22,
+    "end": 160.44
+  },
+  {
+    "text": "was",
+    "start": 160.44,
+    "end": 160.7
+  },
+  {
+    "text": "warm.",
+    "start": 160.7,
+    "end": 161.22
+  },
+  {
+    "text": "Paul",
+    "start": 161.78,
+    "end": 161.78
+  },
+  {
+    "text": "and",
+    "start": 161.78,
+    "end": 162.02
+  },
+  {
+    "text": "his",
+    "start": 162.02,
+    "end": 162.12
+  },
+  {
+    "text": "dog,",
+    "start": 162.12,
+    "end": 162.72
+  },
+  {
+    "text": "Max,",
+    "start": 162.8,
+    "end": 162.94
+  },
+  {
+    "text": "went",
+    "start": 163.18,
+    "end": 163.24
+  },
+  {
+    "text": "to",
+    "start": 163.24,
+    "end": 163.4
+  },
+  {
+    "text": "the",
+    "start": 163.4,
+    "end": 163.48
+  },
+  {
+    "text": "park.",
+    "start": 163.48,
+    "end": 163.83
+  },
+  {
+    "text": "Max",
+    "start": 164.56,
+    "end": 164.56
+  },
+  {
+    "text": "loves",
+    "start": 164.56,
+    "end": 165.0
+  },
+  {
+    "text": "running",
+    "start": 165.0,
+    "end": 165.38
+  },
+  {
+    "text": "on",
+    "start": 165.38,
+    "end": 165.56
+  },
+  {
+    "text": "the",
+    "start": 165.56,
+    "end": 165.66
+  },
+  {
+    "text": "green",
+    "start": 165.66,
+    "end": 165.9
+  },
+  {
+    "text": "grass.",
+    "start": 165.9,
+    "end": 166.36
+  },
+  {
+    "text": "They",
+    "start": 166.88,
+    "end": 166.88
+  },
+  {
+    "text": "played",
+    "start": 166.88,
+    "end": 167.18
+  },
+  {
+    "text": "with",
+    "start": 167.18,
+    "end": 167.42
+  },
+  {
+    "text": "a",
+    "start": 167.42,
+    "end": 167.54
+  },
+  {
+    "text": "red",
+    "start": 167.54,
+    "end": 167.76
+  },
+  {
+    "text": "ball",
+    "start": 167.76,
+    "end": 168.02
+  },
+  {
+    "text": "for",
+    "start": 168.02,
+    "end": 168.3
+  },
+  {
+    "text": "one",
+    "start": 168.3,
+    "end": 168.48
+  },
+  {
+    "text": "hour.",
+    "start": 168.48,
+    "end": 168.9
+  },
+  {
+    "text": "Paul",
+    "start": 169.56,
+    "end": 169.56
+  },
+  {
+    "text": "was",
+    "start": 169.56,
+    "end": 169.76
+  },
+  {
+    "text": "happy,",
+    "start": 169.76,
+    "end": 170.38
+  },
+  {
+    "text": "but",
+    "start": 170.4,
+    "end": 170.44
+  },
+  {
+    "text": "Max",
+    "start": 170.44,
+    "end": 170.66
+  },
+  {
+    "text": "was",
+    "start": 170.66,
+    "end": 170.98
+  },
+  {
+    "text": "very",
+    "start": 170.98,
+    "end": 171.28
+  },
+  {
+    "text": "thirsty.",
+    "start": 171.28,
+    "end": 171.72
+  },
+  {
+    "text": "Here",
+    "start": 172.76,
+    "end": 172.86
+  },
+  {
+    "text": "is",
+    "start": 172.86,
+    "end": 173.0
+  },
+  {
+    "text": "Question",
+    "start": 173.0,
+    "end": 173.34
+  },
+  {
+    "text": "1.",
+    "start": 173.34,
+    "end": 173.8
+  },
+  {
+    "text": "Where",
+    "start": 174.64,
+    "end": 174.66
+  },
+  {
+    "text": "did",
+    "start": 174.66,
+    "end": 174.74
+  },
+  {
+    "text": "Paul",
+    "start": 174.74,
+    "end": 174.98
+  },
+  {
+    "text": "and",
+    "start": 174.98,
+    "end": 175.18
+  },
+  {
+    "text": "Max",
+    "start": 175.18,
+    "end": 175.36
+  },
+  {
+    "text": "go",
+    "start": 175.36,
+    "end": 175.66
+  },
+  {
+    "text": "yesterday?",
+    "start": 175.66,
+    "end": 176.16
+  },
+  {
+    "text": "They",
+    "start": 177.1,
+    "end": 177.18
+  },
+  {
+    "text": "went",
+    "start": 177.18,
+    "end": 177.34
+  },
+  {
+    "text": "to",
+    "start": 177.34,
+    "end": 177.5
+  },
+  {
+    "text": "the",
+    "start": 177.5,
+    "end": 177.58
+  },
+  {
+    "text": "park.",
+    "start": 177.58,
+    "end": 177.86
+  },
+  {
+    "text": "Here",
+    "start": 178.82,
+    "end": 178.92
+  },
+  {
+    "text": "is",
+    "start": 178.92,
+    "end": 179.08
+  },
+  {
+    "text": "Question",
+    "start": 179.08,
+    "end": 179.38
+  },
+  {
+    "text": "2.",
+    "start": 179.38,
+    "end": 179.86
+  },
+  {
+    "text": "Why",
+    "start": 180.84,
+    "end": 180.84
+  },
+  {
+    "text": "was",
+    "start": 180.84,
+    "end": 181.04
+  },
+  {
+    "text": "Max",
+    "start": 181.04,
+    "end": 181.2
+  },
+  {
+    "text": "thirsty?",
+    "start": 181.2,
+    "end": 181.68
+  },
+  {
+    "text": "Because",
+    "start": 182.72,
+    "end": 182.86
+  },
+  {
+    "text": "they",
+    "start": 182.86,
+    "end": 183.04
+  },
+  {
+    "text": "played",
+    "start": 183.04,
+    "end": 183.28
+  },
+  {
+    "text": "for",
+    "start": 183.28,
+    "end": 183.48
+  },
+  {
+    "text": "one",
+    "start": 183.48,
+    "end": 183.7
+  },
+  {
+    "text": "hour.",
+    "start": 183.7,
+    "end": 183.9
+  },
+  {
+    "text": "Here",
+    "start": 185.02,
+    "end": 185.04
+  },
+  {
+    "text": "is",
+    "start": 185.04,
+    "end": 185.2
+  },
+  {
+    "text": "Question",
+    "start": 185.32,
+    "end": 185.52
+  },
+  {
+    "text": "3.",
+    "start": 185.52,
+    "end": 185.98
+  },
+  {
+    "text": "Was",
+    "start": 186.9,
+    "end": 186.9
+  },
+  {
+    "text": "the",
+    "start": 186.9,
+    "end": 187.06
+  },
+  {
+    "text": "weather",
+    "start": 187.06,
+    "end": 187.32
+  },
+  {
+    "text": "bad",
+    "start": 187.32,
+    "end": 187.62
+  },
+  {
+    "text": "yesterday?",
+    "start": 187.62,
+    "end": 188.12
+  },
+  {
+    "text": "No,",
+    "start": 189.18,
+    "end": 189.44
+  },
+  {
+    "text": "it",
+    "start": 189.52,
+    "end": 189.52
+  },
+  {
+    "text": "was",
+    "start": 189.52,
+    "end": 189.62
+  },
+  {
+    "text": "not",
+    "start": 189.62,
+    "end": 189.76
+  },
+  {
+    "text": "bad.",
+    "start": 189.76,
+    "end": 190.11
+  },
+  {
+    "text": "The",
+    "start": 190.58,
+    "end": 190.58
+  },
+  {
+    "text": "weather",
+    "start": 190.58,
+    "end": 190.82
+  },
+  {
+    "text": "was",
+    "start": 190.82,
+    "end": 191.06
+  },
+  {
+    "text": "warm.",
+    "start": 191.06,
+    "end": 191.38
+  },
+  {
+    "text": "You",
+    "start": 192.34,
+    "end": 192.36
+  },
+  {
+    "text": "did",
+    "start": 192.36,
+    "end": 192.48
+  },
+  {
+    "text": "a",
+    "start": 192.48,
+    "end": 192.58
+  },
+  {
+    "text": "wonderful",
+    "start": 192.58,
+    "end": 192.88
+  },
+  {
+    "text": "job",
+    "start": 192.88,
+    "end": 193.28
+  },
+  {
+    "text": "today!",
+    "start": 193.28,
+    "end": 193.66
+  },
+  {
+    "text": "Remember,",
+    "start": 194.5,
+    "end": 195.18
+  },
+  {
+    "text": "listening",
+    "start": 195.26,
+    "end": 195.4
+  },
+  {
+    "text": "to",
+    "start": 195.4,
+    "end": 195.62
+  },
+  {
+    "text": "English",
+    "start": 195.62,
+    "end": 195.92
+  },
+  {
+    "text": "in",
+    "start": 195.92,
+    "end": 196.12
+  },
+  {
+    "text": "English",
+    "start": 196.12,
+    "end": 196.44
+  },
+  {
+    "text": "helps",
+    "start": 196.44,
+    "end": 196.8
+  },
+  {
+    "text": "your",
+    "start": 196.8,
+    "end": 196.98
+  },
+  {
+    "text": "brain",
+    "start": 196.98,
+    "end": 197.26
+  },
+  {
+    "text": "build",
+    "start": 197.26,
+    "end": 197.56
+  },
+  {
+    "text": "strong",
+    "start": 197.56,
+    "end": 197.98
+  },
+  {
+    "text": "habits.",
+    "start": 197.98,
+    "end": 198.42
+  },
+  {
+    "text": "Try",
+    "start": 199.26,
+    "end": 199.32
+  },
+  {
+    "text": "to",
+    "start": 199.32,
+    "end": 199.46
+  },
+  {
+    "text": "describe",
+    "start": 199.46,
+    "end": 199.78
+  },
+  {
+    "text": "your",
+    "start": 199.78,
+    "end": 199.98
+  },
+  {
+    "text": "daily",
+    "start": 199.98,
+    "end": 200.24
+  },
+  {
+    "text": "life",
+    "start": 200.24,
+    "end": 200.68
+  },
+  {
+    "text": "in",
+    "start": 200.68,
+    "end": 200.84
+  },
+  {
+    "text": "simple",
+    "start": 200.84,
+    "end": 201.18
+  },
+  {
+    "text": "English",
+    "start": 201.18,
+    "end": 201.58
+  },
+  {
+    "text": "every",
+    "start": 201.58,
+    "end": 202.02
+  },
+  {
+    "text": "day.",
+    "start": 202.02,
+    "end": 202.36
+  },
+  {
+    "text": "When",
+    "start": 203.04,
+    "end": 203.04
+  },
+  {
+    "text": "you",
+    "start": 203.04,
+    "end": 203.16
+  },
+  {
+    "text": "open",
+    "start": 203.16,
+    "end": 203.44
+  },
+  {
+    "text": "a",
+    "start": 203.44,
+    "end": 203.58
+  },
+  {
+    "text": "door,",
+    "start": 203.58,
+    "end": 203.93
+  },
+  {
+    "text": "say",
+    "start": 204.32,
+    "end": 204.32
+  },
+  {
+    "text": "to",
+    "start": 204.32,
+    "end": 204.48
+  },
+  {
+    "text": "yourself,",
+    "start": 204.48,
+    "end": 204.88
+  },
+  {
+    "text": "I",
+    "start": 205.22,
+    "end": 205.24
+  },
+  {
+    "text": "am",
+    "start": 205.24,
+    "end": 205.36
+  },
+  {
+    "text": "opening",
+    "start": 205.36,
+    "end": 205.68
+  },
+  {
+    "text": "the",
+    "start": 205.68,
+    "end": 205.88
+  },
+  {
+    "text": "door.",
+    "start": 205.88,
+    "end": 206.22
+  },
+  {
+    "text": "When",
+    "start": 206.86,
+    "end": 206.92
+  },
+  {
+    "text": "you",
+    "start": 206.92,
+    "end": 207.04
+  },
+  {
+    "text": "drink",
+    "start": 207.04,
+    "end": 207.2
+  },
+  {
+    "text": "water,",
+    "start": 207.2,
+    "end": 207.6
+  },
+  {
+    "text": "say",
+    "start": 207.94,
+    "end": 208.0
+  },
+  {
+    "text": "to",
+    "start": 208.0,
+    "end": 208.16
+  },
+  {
+    "text": "yourself,",
+    "start": 208.16,
+    "end": 208.56
+  },
+  {
+    "text": "I",
+    "start": 208.98,
+    "end": 209.02
+  },
+  {
+    "text": "am",
+    "start": 209.02,
+    "end": 209.14
+  },
+  {
+    "text": "drinking",
+    "start": 209.34,
+    "end": 209.44
+  },
+  {
+    "text": "water.",
+    "start": 209.44,
+    "end": 209.54
+  },
+  {
+    "text": "Thank",
+    "start": 210.8,
+    "end": 210.94
+  },
+  {
+    "text": "you",
+    "start": 210.94,
+    "end": 211.12
+  },
+  {
+    "text": "for",
+    "start": 211.12,
+    "end": 211.26
+  },
+  {
+    "text": "listening",
+    "start": 211.26,
+    "end": 211.58
+  },
+  {
+    "text": "to",
+    "start": 211.58,
+    "end": 211.8
+  },
+  {
+    "text": "today's",
+    "start": 211.8,
+    "end": 212.2
+  },
+  {
+    "text": "lesson.",
+    "start": 212.2,
+    "end": 212.4
+  },
+  {
+    "text": "Keep",
+    "start": 213.12,
+    "end": 213.22
+  },
+  {
+    "text": "practicing,",
+    "start": 213.22,
+    "end": 214.04
+  },
+  {
+    "text": "and",
+    "start": 214.12,
+    "end": 214.2
+  },
+  {
+    "text": "see",
+    "start": 214.2,
+    "end": 214.4
+  },
+  {
+    "text": "you",
+    "start": 214.4,
+    "end": 214.52
+  },
+  {
+    "text": "next",
+    "start": 214.52,
+    "end": 214.7
+  },
+  {
+    "text": "time!",
+    "start": 215.63,
+    "end": 215.63
+  },
+  {
+    "text": "",
+    "start": 215.63,
+    "end": 215.63
+  }
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Basic Listening</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow-sphere sphere-1"></div>
+  <div class="glow-sphere sphere-2"></div>
+
+  <div class="app-container">
+    <header class="app-header">
+      <h1 class="logo">LEARN IN ENGLISH</h1>
+      
+      <div class="controls-bar">
+        <!-- JSで選択肢を動的追加するため空にしておく -->
+        <div class="select-wrapper">
+          <select id="file-select" class="glass-select">
+            <option value="">-- Select Lesson --</option>
+          </select>
+        </div>
+
+        <label class="glass-upload-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          <span>Upload</span>
+          <input type="file" id="local-file-input" accept=".mp3,.json" multiple hidden>
+        </label>
+      </div>
+    </header>
+
+    <main class="transcript-container" id="transcript">
+      <div class="placeholder-text">
+        <p>Select a lesson or upload files to start</p>
+      </div>
+    </main>
+
+    <footer class="player-card">
+      <audio id="audio-player" preload="metadata"></audio>
+
+      <div class="player-controls">
+        <button id="play-btn" class="play-btn" aria-label="Play">
+          <svg id="play-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          <svg id="pause-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+        </button>
+
+        <div class="progress-container">
+          <span id="current-time" class="time-display">00:00</span>
+          <div class="progress-bar-wrapper" id="progress-bar-wrapper">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+          <span id="duration-time" class="time-display">00:00</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
