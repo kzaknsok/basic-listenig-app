@@ -114,17 +114,42 @@ body {
 .select-wrapper {
   position: relative;
   width: 100%; /* 親の幅いっぱいに広げる */
+  display: flex;
+  align-items: center;
+}
+
+/* カスタム矢印アイコン（右側に配置） */
+.select-wrapper::after {
+  content: '';
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 6px;
+  background-color: var(--neon-cyan);
+  clip-path: polygon(0 0, 100% 0, 50% 100%); /* 三角形矢印 */
+  pointer-events: none; /* 矢印部分をタップしても下のselectが反応するようにする */
+  opacity: 0.8;
 }
 
 /* セレクトボックス本体 */
 .glass-select {
-  width: 100%;                  /* タブ幅いっぱいに広げる */
-  padding: 12px 16px;           /* 上下に十分な余白を作ってタップ領域を広げる */
-  font-size: 16px;              /* スマホで自動ズームされないための推奨サイズ */
+  width: 100%;
+  padding: 12px 40px 12px 16px; /* 右側に矢印用の余白(40px)を確保 */
+  font-size: 16px;
+  color: var(--text-main);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  outline: none;
   cursor: pointer;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
   
-  /* デフォルトの矢印アイコンの余白調整 */
-  appearance: none;             /* ブラウザ標準の見た目をリセット */
+  /* デフォルトの矢印を非表示 */
+  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   
@@ -132,13 +157,19 @@ body {
   touch-action: manipulation;
 }
 
+/* ホバー＆フォーカス時（ネオン発光効果） */
+.glass-select:hover,
 .glass-select:focus {
-  border-color: var(--glass-border-light);
+  border-color: rgba(0, 242, 254, 0.5);
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 0 15px rgba(0, 242, 254, 0.2);
 }
 
+/* 展開される選択肢メニュー（黒背景で視認性を確保） */
 .glass-select option {
   background: #0d1117;
-  color: #fff;
+  color: var(--text-main);
+  padding: 10px;
 }
 
 .glass-upload-btn {
