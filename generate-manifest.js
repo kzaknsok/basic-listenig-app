@@ -11,36 +11,39 @@ try {
     const ext = path.extname(file).toLowerCase();
     const baseName = path.basename(file, ext);
 
-    if (['lessons', 'package', 'package-lock'].includes(baseName)) return;
+    // ルール1: package.json と 自身(manifest.json) は除外
+    if (file === 'package.json' || file === 'manifest.json' || baseName === 'package-lock') {
+      return;
+    }
 
-    if (['.mp3', '.wav', '.json'].includes(ext)) {
-      if (!pairs[baseName]) {
-        pairs[baseName] = { audio: null, json: false };
-      }
-      if (ext === '.mp3' || ext === '.wav') pairs[baseName].audio = ext;
-      if (ext === '.json') pairs[baseName].json = true;
+    // ルール2: .json はすべてテキスト（字幕データ）として扱う
+    if (ext === '.json') {
+      if (!pairs[baseName]) pairs[baseName] = { audioExt: null, hasJson: false };
+      pairs[baseName].hasJson = true;
+    }
+
+    // ルール3: .wav または .mp3 はすべて音声ファイルとして扱う
+    if (ext === '.wav' || ext === '.mp3') {
+      if (!pairs[baseName]) pairs[baseName] = { audioExt: null, hasJson: false };
+      pairs[baseName].audioExt = ext;
     }
   });
 
+  // 音声とJSON(テキスト)のペアが揃っているものだけを全自動抽出
   const manifest = Object.keys(pairs)
-    .filter(baseName => pairs[baseName].audio && pairs[baseName].json)
+    .filter(baseName => pairs[baseName].hasJson && pairs[baseName].audioExt)
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }))
-    .map(baseName => {
-      const formattedTitle = baseName
-        .replace(/[_-]/g, ' ')
-        .replace(/^lesson\s*/i, 'Lesson ');
+    .map(baseName => ({
+      id: baseName,
+      title: baseName.replace(/[_-]/g, ' '), // アンダースコアやハイフンを綺麗に整形
+      audioExt: pairs[baseName].audioExt
+    }));
 
-      return {
-        id: baseName,
-        title: formattedTitle,
-        ext: pairs[baseName].audio
-      };
-    });
-
-  const outputPath = path.join(rootDir, 'lessons.json');
+  // manifest.json として出力
+  const outputPath = path.join(rootDir, 'manifest.json');
   fs.writeFileSync(outputPath, JSON.stringify(manifest, null, 2), 'utf8');
 
-  console.log(`\x1b[32m[Success]\x1b[0m lessons.json を正常生成（${manifest.length}件）`);
+  console.log(`\x1b[32m[Success]\x1b[0m ${manifest.length} 件のペア（音声+テキスト）を全自動検出して登録しました。`);
 } catch (error) {
   console.error('\x1b[31m[Error]\x1b[0m 生成エラー:', error);
   process.exit(1);
