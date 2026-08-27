@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
   <div class="glow-sphere sphere-1"></div>
@@ -23,18 +24,12 @@
             <option value="">-- Select Lesson --</option>
           </select>
         </div>
-
-        <label class="glass-upload-btn">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-          <span>Upload</span>
-          <input type="file" id="local-file-input" accept=".mp3,.wav,.json" multiple hidden>
-        </label>
       </div>
     </header>
 
     <main class="transcript-container" id="transcript">
       <div class="placeholder-text">
-        <p>Select a lesson or upload files to start</p>
+        <p>Select a lesson to start</p>
       </div>
     </main>
 
@@ -57,7 +52,5 @@
       </div>
     </footer>
   </div>
-
-  <script src="app.js"></script>
 </body>
 </html>

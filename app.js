@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const audio = document.getElementById('audio-player');
   const transcriptContainer = document.getElementById('transcript');
   const fileSelect = document.getElementById('file-select');
-  const localFileInput = document.getElementById('local-file-input');
 
   const playBtn = document.getElementById('play-btn');
   const playIcon = document.getElementById('play-icon');
@@ -15,16 +14,24 @@ document.addEventListener('DOMContentLoaded', () => {
   let wordElements = [];
   let lessonMap = {};
 
-  // 0. manifest.json からドロップダウンを動的生成
+  // 1. manifest.json からドロップダウンを動的生成
   function initLessonList() {
     fetch('./manifest.json')
       .then(res => {
-        if (!res.ok) throw new Error('manifest.json が見つかりません');
+        if (!res.ok) {
+          throw new Error(`manifest.json の取得に失敗しました (Status: ${res.status})`);
+        }
         return res.json();
       })
       .then(list => {
+        if (!Array.isArray(list) || list.length === 0) {
+          fileSelect.innerHTML = '<option value="">-- No Lessons Found --</option>';
+          return;
+        }
+
         fileSelect.innerHTML = '<option value="">-- Select Lesson --</option>';
         lessonMap = {};
+
         list.forEach(item => {
           lessonMap[item.id] = item.audioExt;
           const opt = document.createElement('option');
@@ -34,13 +41,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       })
       .catch(err => {
-        console.warn('マニフェスト読み込みスキップ (ローカル選択モード使用可能):', err);
+        console.error('マニフェスト読み込みエラー:', err);
+        fileSelect.innerHTML = '<option value="">-- Failed to Load --</option>';
       });
   }
 
   initLessonList();
 
-  // 1. サーバー上のファイル選択（パターンA）
+  // 2. セレクトボックス切り替え時の音声・字幕ロード
   fileSelect.addEventListener('change', (e) => {
     const baseName = e.target.value;
     if (!baseName) return;
@@ -49,56 +57,16 @@ document.addEventListener('DOMContentLoaded', () => {
     loadAudioAndJson(`./${baseName}${audioExt}`, `./${baseName}.json`);
   });
 
-  // 2. ローカルファイル読み込み（パターンB）
-  localFileInput.addEventListener('change', (e) => {
-    const files = Array.from(e.target.files);
-    if (files.length === 0) return;
-
-    const pairs = {};
-    files.forEach(file => {
-      const lastDotIndex = file.name.lastIndexOf('.');
-      if (lastDotIndex === -1) return;
-
-      const baseName = file.name.substring(0, lastDotIndex);
-      const ext = file.name.substring(lastDotIndex + 1).toLowerCase();
-
-      if (!pairs[baseName]) pairs[baseName] = {};
-      if (ext === 'mp3' || ext === 'wav') pairs[baseName].audio = file;
-      if (ext === 'json') pairs[baseName].json = file;
-    });
-
-    const validBaseName = Object.keys(pairs).find(key => pairs[key].audio && pairs[key].json);
-
-    if (validBaseName) {
-      const selectedPair = pairs[validBaseName];
-      const audioUrl = URL.createObjectURL(selectedPair.audio);
-
-      const reader = new FileReader();
-      reader.onload = (event) => {
-        try {
-          const jsonData = JSON.parse(event.target.result);
-          setupAudio(audioUrl);
-          renderTranscript(jsonData);
-        } catch (err) {
-          alert('JSONのパースに失敗しました。');
-        }
-      };
-      reader.readAsText(selectedPair.json);
-    } else {
-      alert('同名の 音声(.mp3/.wav) と .json のペアが見つかりませんでした。');
-    }
-  });
-
   function loadAudioAndJson(audioUrl, jsonUrl) {
     setupAudio(audioUrl);
     fetch(jsonUrl)
       .then(res => {
-        if (!res.ok) throw new Error('JSON読み込み失敗');
+        if (!res.ok) throw new Error(`${jsonUrl} の読み込みに失敗しました`);
         return res.json();
       })
       .then(data => renderTranscript(data))
       .catch(err => {
-        transcriptContainer.innerHTML = `<div class="placeholder-text"><p style="color:#ff6b6b;">${jsonUrl} が見つかりません。</p></div>`;
+        transcriptContainer.innerHTML = `<div class="placeholder-text"><p style="color:#ff6b6b;">${err.message}</p></div>`;
       });
   }
 
