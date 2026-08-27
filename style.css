@@ -110,21 +110,26 @@ body {
   gap: 0.75rem;
 }
 
+/* セレクトボックスの親要素 */
 .select-wrapper {
-  flex: 1;
+  position: relative;
+  width: 100%; /* 親の幅いっぱいに広げる */
 }
 
+/* セレクトボックス本体 */
 .glass-select {
-  width: 100%;
-  padding: 0.6rem 0.9rem;
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-  border-radius: 12px;
-  color: var(--text-main);
-  font-size: 0.85rem;
-  outline: none;
-  backdrop-filter: blur(8px);
-  transition: border-color 0.2s ease;
+  width: 100%;                  /* タブ幅いっぱいに広げる */
+  padding: 12px 16px;           /* 上下に十分な余白を作ってタップ領域を広げる */
+  font-size: 16px;              /* スマホで自動ズームされないための推奨サイズ */
+  cursor: pointer;
+  
+  /* デフォルトの矢印アイコンの余白調整 */
+  appearance: none;             /* ブラウザ標準の見た目をリセット */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  /* タッチ操作の反応性を向上 */
+  touch-action: manipulation;
 }
 
 .glass-select:focus {
