@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # デフォルトブランチ名に合わせて変更してください
+      - main # デフォルトブランチ名に合わせて変更
 
 permissions:
   contents: read
@@ -27,13 +27,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24' # Node.js 24 に更新
+          node-version: '24'
 
       - name: Generate Manifest (lessons.json)
         run: node generate-manifest.js
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5 # v5 にアップデート
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

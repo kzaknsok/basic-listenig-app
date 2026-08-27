@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const fileSelect = document.getElementById('file-select');
   const localFileInput = document.getElementById('local-file-input');
 
-  // カスタムプレイヤー用要素
   const playBtn = document.getElementById('play-btn');
   const playIcon = document.getElementById('play-icon');
   const pauseIcon = document.getElementById('pause-icon');
@@ -14,19 +13,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const progressBarWrapper = document.getElementById('progress-bar-wrapper');
 
   let wordElements = [];
+  let lessonMap = {};
 
-  // ==========================================
-  // 0. lessons.json からドロップダウンを動的生成
-  // ==========================================
+  // 0. lessons.json からドロップダウン初期化（相対パス ./ を使用）
   function initLessonList() {
-    fetch('lessons.json')
+    fetch('./lessons.json')
       .then(res => {
         if (!res.ok) throw new Error('lessons.json が見つかりません');
         return res.json();
       })
       .then(list => {
         fileSelect.innerHTML = '<option value="">-- Select Lesson --</option>';
+        lessonMap = {};
         list.forEach(item => {
+          lessonMap[item.id] = item.ext || '.mp3';
           const opt = document.createElement('option');
           opt.value = item.id;
           opt.textContent = item.title;
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       })
       .catch(err => {
-        console.warn('lessons.json の自動読み込みスキップ:', err);
+        console.warn('lessons.json 読み込みスキップ:', err);
       });
   }
 
@@ -45,7 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const baseName = e.target.value;
     if (!baseName) return;
 
-    loadAudioAndJson(`${baseName}.mp3`, `${baseName}.json`);
+    const ext = lessonMap[baseName] || '.mp3';
+    loadAudioAndJson(`./${baseName}${ext}`, `./${baseName}.json`);
   });
 
   // 2. ローカルファイル読み込み（パターンB）
@@ -62,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const ext = file.name.substring(lastDotIndex + 1).toLowerCase();
 
       if (!pairs[baseName]) pairs[baseName] = {};
-      if (ext === 'mp3') pairs[baseName].audio = file;
+      if (ext === 'mp3' || ext === 'wav') pairs[baseName].audio = file;
       if (ext === 'json') pairs[baseName].json = file;
     });
 
@@ -84,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
       };
       reader.readAsText(selectedPair.json);
     } else {
-      alert('同名の .mp3 と .json のペアが見つかりませんでした。');
+      alert('同名の 音声(.mp3/.wav) と .json のペアが見つかりませんでした。');
     }
   });
 
@@ -107,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
     resetPlayerUI();
   }
 
-  // 3. テキスト描画処理
+  // 3. テキスト描画
   function renderTranscript(wordsData) {
     transcriptContainer.innerHTML = '';
     wordElements = [];
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 4. ミリ秒精度同期トラッキング
+  // 4. 同期トラッキング
   function syncTranscript() {
     if (!audio.paused && !audio.ended) {
       const currentTime = audio.currentTime;
@@ -175,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.sentence.active-sentence').forEach(el => el.classList.remove('active-sentence'));
   }
 
-  // 5. カスタムプレイヤーのコントロール制御
+  // 5. プレイヤーコントロール
   playBtn.addEventListener('click', () => {
     if (!audio.src) return;
     if (audio.paused) {
@@ -217,7 +218,6 @@ document.addEventListener('DOMContentLoaded', () => {
     durationTimeEl.textContent = formatTime(audio.duration);
   });
 
-  // プログレスバータップでシーク
   progressBarWrapper.addEventListener('click', (e) => {
     if (!audio.duration) return;
     const rect = progressBarWrapper.getBoundingClientRect();
@@ -225,7 +225,6 @@ document.addEventListener('DOMContentLoaded', () => {
     audio.currentTime = pos * audio.duration;
     updatePlayerProgress();
     
-    // シーク位置のハイライト更新
     clearHighlights();
     const currentTime = audio.currentTime;
     const currentWord = wordElements.find(item => currentTime >= item.start && currentTime <= item.end);
