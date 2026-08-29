@@ -19,20 +19,39 @@
       <h1 class="logo">LEARN IN ENGLISH</h1>
       
       <div class="controls-bar">
+        <!-- レッスン選択ドロップダウン -->
         <div class="select-wrapper">
           <select id="file-select" class="glass-select">
             <option value="">-- Select Lesson --</option>
           </select>
         </div>
+
+        <!-- ビュー切替タブ -->
+        <div class="view-tabs">
+          <button id="tab-transcript" class="tab-btn active">ハイライト</button>
+          <button id="tab-text" class="tab-btn">全文表示</button>
+        </div>
       </div>
     </header>
 
-    <main class="transcript-container" id="transcript">
-      <div class="placeholder-text">
-        <p>Select a lesson to start</p>
+    <!-- メインコンテンツ領域 -->
+    <main class="main-content">
+      <!-- 1. 単語ハイライト字幕エリア -->
+      <div class="transcript-container" id="transcript">
+        <div class="placeholder-text">
+          <p>Select a lesson to start</p>
+        </div>
+      </div>
+
+      <!-- 2. 全文テキスト（.txt）表示エリア（初期状態は非表示） -->
+      <div class="full-text-container hidden" id="full-text-container">
+        <div class="placeholder-text">
+          <p>Select a lesson to start</p>
+        </div>
       </div>
     </main>
 
+    <!-- プレイヤーカード -->
     <footer class="player-card">
       <audio id="audio-player" preload="metadata"></audio>
 

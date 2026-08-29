@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // 既存の取得要素
   const audio = document.getElementById('audio-player');
   const transcriptContainer = document.getElementById('transcript');
   const fileSelect = document.getElementById('file-select');
-
   const playBtn = document.getElementById('play-btn');
   const playIcon = document.getElementById('play-icon');
   const pauseIcon = document.getElementById('pause-icon');
@@ -11,17 +11,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const progressBar = document.getElementById('progress-bar');
   const progressBarWrapper = document.getElementById('progress-bar-wrapper');
 
+  // ★追加要素
+  const fullTextContainer = document.getElementById('full-text-container');
+  const tabTranscript = document.getElementById('tab-transcript');
+  const tabText = document.getElementById('tab-text');
+
   let wordElements = [];
   let lessonMap = {};
 
-  // 1. manifest.json からドロップダウンを動的生成
+  // 1. マニフェスト取得
   function initLessonList() {
-    // サブディレクトリやGitHub Pages環境での動作安定のため ./ を外した相対指定
     fetch('manifest.json')
       .then(res => {
-        if (!res.ok) {
-          throw new Error(`manifest.json の取得に失敗しました (Status: ${res.status})`);
-        }
+        if (!res.ok) throw new Error(`manifest.json の取得に失敗しました`);
         return res.json();
       })
       .then(list => {
@@ -49,17 +51,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
   initLessonList();
 
-  // 2. セレクトボックス切り替え時の音声・字幕ロード
+  // 2. セレクトボックス切り替え
   fileSelect.addEventListener('change', (e) => {
     const baseName = e.target.value;
     if (!baseName) return;
 
     const audioExt = lessonMap[baseName] || '.mp3';
-    loadAudioAndJson(`${baseName}${audioExt}`, `${baseName}.json`);
+    
+    // 音声、JSON（ハイライト用）、TXT（全文用）をロード
+    loadAudioAndData(
+      `${baseName}${audioExt}`, 
+      `${baseName}.json`, 
+      `${baseName}.txt`
+    );
   });
 
-  function loadAudioAndJson(audioUrl, jsonUrl) {
+  function loadAudioAndData(audioUrl, jsonUrl, txtUrl) {
     setupAudio(audioUrl);
+
+    // JSON（ハイライト用）読み込み
     fetch(jsonUrl)
       .then(res => {
         if (!res.ok) throw new Error(`${jsonUrl} の読み込みに失敗しました`);
@@ -69,6 +79,19 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(err => {
         transcriptContainer.innerHTML = `<div class="placeholder-text"><p style="color:#ff6b6b;">${err.message}</p></div>`;
       });
+
+    // ★ TXT（全文表示用）読み込み（存在しない場合は "No File" と表示）
+    fetch(txtUrl)
+      .then(res => {
+        if (!res.ok) throw new Error('File not found');
+        return res.text();
+      })
+      .then(text => {
+        fullTextContainer.textContent = text;
+      })
+      .catch(() => {
+        fullTextContainer.innerHTML = `<div class="placeholder-text"><p style="color: var(--text-muted);">No File</p></div>`;
+      });
   }
 
   function setupAudio(src) {
@@ -77,7 +100,24 @@ document.addEventListener('DOMContentLoaded', () => {
     resetPlayerUI();
   }
 
-  // 3. テキスト描画処理
+  // 3. SPA風 タブ切り替え処理
+  tabTranscript.addEventListener('click', () => {
+    tabTranscript.classList.add('active');
+    tabText.classList.remove('active');
+
+    transcriptContainer.classList.remove('hidden');
+    fullTextContainer.classList.add('hidden');
+  });
+
+  tabText.addEventListener('click', () => {
+    tabText.classList.add('active');
+    tabTranscript.classList.remove('active');
+
+    fullTextContainer.classList.remove('hidden');
+    transcriptContainer.classList.add('hidden');
+  });
+
+  // 4. テキスト描画処理
   function renderTranscript(wordsData) {
     transcriptContainer.innerHTML = '';
     wordElements = [];
@@ -100,7 +140,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       currentSentenceEl.appendChild(wordSpan);
 
-      // start と end が同じ値（幅0秒）の場合は、ハイライト用に最低0.1秒の幅を確保
       const calculatedEnd = Number(item.end) <= Number(item.start) ? Number(item.start) + 0.1 : Number(item.end);
 
       wordElements.push({
@@ -118,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 4. トラッキング
+  // 5. トラッキング
   function syncTranscript() {
     if (!audio.paused && !audio.ended) {
       const currentTime = audio.currentTime;
@@ -131,10 +170,12 @@ document.addEventListener('DOMContentLoaded', () => {
             item.element.classList.add('active');
             item.parentElement.classList.add('active-sentence');
 
-            item.element.scrollIntoView({
-              behavior: 'smooth',
-              block: 'center'
-            });
+            if (!transcriptContainer.classList.contains('hidden')) {
+              item.element.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+              });
+            }
           }
         }
       });
@@ -148,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.sentence.active-sentence').forEach(el => el.classList.remove('active-sentence'));
   }
 
-  // 5. プレイヤーコントロール
+  // 6. プレイヤーコントロール
   playBtn.addEventListener('click', () => {
     if (!audio.src) return;
     if (audio.paused) {

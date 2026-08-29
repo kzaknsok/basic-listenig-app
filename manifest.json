@@ -1,5 +1,10 @@
 [
   {
+    "id": "phrases300",
+    "title": "phrases300",
+    "audioExt": ".mp3"
+  },
+  {
     "id": "pt-one",
     "title": "pt one",
     "audioExt": ".mp3"
