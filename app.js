@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const progressBar = document.getElementById('progress-bar');
   const progressBarWrapper = document.getElementById('progress-bar-wrapper');
 
-  // ★追加要素
+  // タブ要素
   const fullTextContainer = document.getElementById('full-text-container');
   const tabTranscript = document.getElementById('tab-transcript');
   const tabText = document.getElementById('tab-text');
@@ -19,7 +19,22 @@ document.addEventListener('DOMContentLoaded', () => {
   let wordElements = [];
   let lessonMap = {};
 
-  // 1. マニフェスト取得
+  // ★ 1. 自動ポーズ用の設定と管理変数
+  const PAUSE_DURATION_MS = 300; // 単語間のポーズ時間（ミリ秒）例: 300 = 0.3秒
+  let isAutoPaused = false;
+  let autoPauseTimer = null;
+  let lastPausedWordIndex = -1;
+
+  // 自動ポーズ用タイマーをクリアする補助関数
+  function clearAutoPauseTimer() {
+    if (autoPauseTimer) {
+      clearTimeout(autoPauseTimer);
+      autoPauseTimer = null;
+    }
+    isAutoPaused = false;
+  }
+
+  // マニフェスト取得
   function initLessonList() {
     fetch('manifest.json')
       .then(res => {
@@ -51,14 +66,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   initLessonList();
 
-  // 2. セレクトボックス切り替え
+  // セレクトボックス切り替え
   fileSelect.addEventListener('change', (e) => {
     const baseName = e.target.value;
     if (!baseName) return;
 
     const audioExt = lessonMap[baseName] || '.mp3';
     
-    // 音声、JSON（ハイライト用）、TXT（全文用）をロード
     loadAudioAndData(
       `${baseName}${audioExt}`, 
       `${baseName}.json`, 
@@ -80,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         transcriptContainer.innerHTML = `<div class="placeholder-text"><p style="color:#ff6b6b;">${err.message}</p></div>`;
       });
 
-    // ★ TXT（全文表示用）読み込み（存在しない場合は "No File" と表示）
+    // TXT（全文表示用）読み込み
     fetch(txtUrl)
       .then(res => {
         if (!res.ok) throw new Error('File not found');
@@ -95,12 +109,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function setupAudio(src) {
+    clearAutoPauseTimer();
+    lastPausedWordIndex = -1;
     audio.src = src;
     audio.load();
     resetPlayerUI();
   }
 
-  // 3. SPA風 タブ切り替え処理
+  // タブ切り替え処理
   tabTranscript.addEventListener('click', () => {
     tabTranscript.classList.add('active');
     tabText.classList.remove('active');
@@ -117,16 +133,17 @@ document.addEventListener('DOMContentLoaded', () => {
     transcriptContainer.classList.add('hidden');
   });
 
-  // 4. テキスト描画処理
+  // テキスト描画処理
   function renderTranscript(wordsData) {
     transcriptContainer.innerHTML = '';
     wordElements = [];
+    lastPausedWordIndex = -1;
 
     let currentSentenceEl = document.createElement('div');
     currentSentenceEl.className = 'sentence';
     transcriptContainer.appendChild(currentSentenceEl);
 
-    wordsData.forEach(item => {
+    wordsData.forEach((item, index) => {
       const wordSpan = document.createElement('span');
       wordSpan.className = 'word';
       wordSpan.textContent = item.text + ' ';
@@ -134,6 +151,8 @@ document.addEventListener('DOMContentLoaded', () => {
       wordSpan.dataset.end = item.end;
 
       wordSpan.addEventListener('click', () => {
+        clearAutoPauseTimer();
+        lastPausedWordIndex = index - 1; // クリックした単語で自動ポーズが発生するようにセット
         audio.currentTime = item.start;
         playAudio();
       });
@@ -146,7 +165,8 @@ document.addEventListener('DOMContentLoaded', () => {
         element: wordSpan,
         parentElement: currentSentenceEl,
         start: Number(item.start),
-        end: calculatedEnd
+        end: calculatedEnd,
+        index: index
       });
 
       if (/[.?!]$/.test(item.text.trim())) {
@@ -157,13 +177,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. トラッキング
+  // ★ 2. トラッキングと自動ポーズ制御
   function syncTranscript() {
-    if (!audio.paused && !audio.ended) {
+    if (!audio.paused && !audio.ended && !isAutoPaused) {
       const currentTime = audio.currentTime;
       updatePlayerProgress();
 
-      wordElements.forEach(item => {
+      for (let i = 0; i < wordElements.length; i++) {
+        const item = wordElements[i];
+
+        // 現在の単語の区間内にある場合
         if (currentTime >= item.start && currentTime <= item.end) {
           if (!item.element.classList.contains('active')) {
             clearHighlights();
@@ -178,10 +201,33 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           }
         }
-      });
+
+        // 単語の終了時刻（item.end）に到達したら一時停止を発動
+        if (currentTime >= item.end && lastPausedWordIndex < item.index) {
+          lastPausedWordIndex = item.index;
+          triggerAutoPause();
+          return; // ループとフレーム呼び出しを一瞬抜ける
+        }
+      }
 
       requestAnimationFrame(syncTranscript);
     }
+  }
+
+  // ★ 3. 自動ポーズ実行関数
+  function triggerAutoPause() {
+    isAutoPaused = true;
+    audio.pause();
+
+    autoPauseTimer = setTimeout(() => {
+      isAutoPaused = false;
+      autoPauseTimer = null;
+      if (audio.src && !audio.ended) {
+        audio.play().then(() => {
+          requestAnimationFrame(syncTranscript);
+        }).catch(e => console.log('Auto resume play error:', e));
+      }
+    }, PAUSE_DURATION_MS);
   }
 
   function clearHighlights() {
@@ -189,12 +235,14 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.sentence.active-sentence').forEach(el => el.classList.remove('active-sentence'));
   }
 
-  // 6. プレイヤーコントロール
+  // プレイヤーコントロール
   playBtn.addEventListener('click', () => {
     if (!audio.src) return;
     if (audio.paused) {
+      clearAutoPauseTimer();
       playAudio();
     } else {
+      clearAutoPauseTimer();
       pauseAudio();
     }
   });
@@ -233,6 +281,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   progressBarWrapper.addEventListener('click', (e) => {
     if (!audio.duration) return;
+    clearAutoPauseTimer();
+
     const rect = progressBarWrapper.getBoundingClientRect();
     const pos = (e.clientX - rect.left) / rect.width;
     audio.currentTime = pos * audio.duration;
@@ -240,14 +290,22 @@ document.addEventListener('DOMContentLoaded', () => {
     
     clearHighlights();
     const currentTime = audio.currentTime;
+    
+    // シーク位置に合わせて lastPausedWordIndex を更新
     const currentWord = wordElements.find(item => currentTime >= item.start && currentTime <= item.end);
     if (currentWord) {
       currentWord.element.classList.add('active');
       currentWord.parentElement.classList.add('active-sentence');
+      lastPausedWordIndex = currentWord.index - 1;
+    } else {
+      // 単語間にシークされた場合、直前の単語のインデックスを探して設定
+      const pastWords = wordElements.filter(item => item.end <= currentTime);
+      lastPausedWordIndex = pastWords.length > 0 ? pastWords[pastWords.length - 1].index : -1;
     }
   });
 
   audio.addEventListener('ended', () => {
+    clearAutoPauseTimer();
     pauseAudio();
     clearHighlights();
   });
