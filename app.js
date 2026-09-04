@@ -60,11 +60,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!baseName) return;
 
     const audioExt = lessonMap[baseName] || '.mp3';
-    
+
+    // ★ resources/ パスを付与してロード
     loadAudioAndData(
-      `${baseName}${audioExt}`, 
-      `${baseName}.json`, 
-      `${baseName}.txt`
+      `resources/${baseName}${audioExt}`,
+      `resources/${baseName}.json`,
+      `resources/${baseName}.txt`
     );
   });
 
@@ -240,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pos = (e.clientX - rect.left) / rect.width;
     audio.currentTime = pos * audio.duration;
     updatePlayerProgress();
-    
+
     clearHighlights();
     const currentTime = audio.currentTime;
     const currentWord = wordElements.find(item => currentTime >= item.start && currentTime <= item.end);
