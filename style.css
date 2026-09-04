@@ -1,20 +1,21 @@
 :root {
-  --bg-dark: #07090e;
+  /* 背景を深いミッドナイトブルーに変更 */
+  --bg-dark: #060a17;
   
   /* グラスモーフィズム調の背景・境界線カラー */
   --glass-bg: rgba(255, 255, 255, 0.02);
-  --glass-border: rgba(255, 255, 255, 0.12);
-  --glass-border-light: rgba(255, 255, 255, 0.22);
-  --glass-card: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(30, 58, 138, 0.25);
+  --glass-border-light: rgba(59, 130, 246, 0.35);
+  --glass-card: rgba(15, 23, 42, 0.4);
   
-  /* ネオン系アクセントカラー */
-  --neon-cyan: #00f2fe;
-  --neon-blue: #4facfe;
-  --neon-gold: #ffdd67;
+  /* ディープブルー系ネオンアクセントカラー */
+  --neon-cyan: #3b82f6;       /* エレクトリックブルー */
+  --neon-blue: #1d4ed8;       /* ロイヤルブルー */
+  --neon-accent: #60a5fa;     /* アイスブルー */
   
   /* テキストカラー */
-  --text-main: #f0f4f8;
-  --text-muted: #7e8e9f;
+  --text-main: #f0f6ff;
+  --text-muted: #64748b;
 }
 
 * {
@@ -43,7 +44,7 @@ body {
 }
 
 /* --------------------------------------------------
-   背景ネオンオーラ（流動する光のアニメーション）
+   背景ネオンオーラ（深いブルーグラデーション）
    -------------------------------------------------- */
 .glow-sphere {
   position: absolute;
@@ -57,7 +58,7 @@ body {
 .sphere-1 {
   width: 380px;
   height: 380px;
-  background: rgba(0, 242, 254, 0.25);
+  background: rgba(37, 99, 235, 0.25);
   top: 10%;
   left: 20%;
 }
@@ -65,7 +66,7 @@ body {
 .sphere-2 {
   width: 420px;
   height: 420px;
-  background: rgba(79, 172, 254, 0.2);
+  background: rgba(29, 78, 216, 0.3);
   bottom: 10%;
   right: 15%;
   animation-delay: -5s;
@@ -88,36 +89,36 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  background: rgba(10, 13, 20, 0.35);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(11, 17, 32, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-left: 1px solid var(--glass-border);
   border-right: 1px solid var(--glass-border);
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px rgba(2, 6, 23, 0.8);
 }
 
 /* ヘッダー */
 .app-header {
   padding: 1.2rem 1.5rem;
   border-bottom: 1px solid var(--glass-border);
-  background: rgba(255, 255, 255, 0.01);
+  background: rgba(15, 23, 42, 0.2);
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* ロゴデザイン（グラデーション＋文字発光の互換性を最適化） */
+/* ロゴデザイン（ブルーグラデーション＋ネオン発光） */
 .logo {
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-align: center;
-  background: linear-gradient(135deg, #ffffff 0%, var(--neon-cyan) 100%);
+  background: linear-gradient(135deg, #ffffff 0%, var(--neon-accent) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 12px rgba(0, 242, 254, 0.6));
+  filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.6));
 }
 
 .controls-bar {
@@ -134,7 +135,7 @@ body {
   align-items: center;
 }
 
-/* カスタム矢印アイコン（右側に配置） */
+/* カスタム矢印アイコン */
 .select-wrapper::after {
   content: '';
   position: absolute;
@@ -155,7 +156,7 @@ body {
   padding: 12px 40px 12px 16px;
   font-size: 16px;
   color: var(--text-main);
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(15, 23, 42, 0.4);
   border: 1px solid var(--glass-border);
   border-radius: 12px;
   outline: none;
@@ -173,13 +174,13 @@ body {
 
 .glass-select:hover,
 .glass-select:focus {
-  border-color: rgba(0, 242, 254, 0.5);
-  background: rgba(255, 255, 255, 0.07);
-  box-shadow: 0 0 15px rgba(0, 242, 254, 0.2);
+  border-color: rgba(59, 130, 246, 0.6);
+  background: rgba(30, 58, 138, 0.25);
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.3);
 }
 
 .glass-select option {
-  background: #0d1117;
+  background: #0b1120;
   color: var(--text-main);
   padding: 10px;
 }
@@ -187,7 +188,7 @@ body {
 /* ビュー切替タブ */
 .view-tabs {
   display: flex;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(15, 23, 42, 0.4);
   border: 1px solid var(--glass-border);
   border-radius: 12px;
   padding: 4px;
@@ -215,10 +216,10 @@ body {
 }
 
 .tab-btn.active {
-  background: rgba(0, 242, 254, 0.15);
-  color: var(--neon-cyan);
-  border-color: rgba(0, 242, 254, 0.3);
-  box-shadow: 0 0 12px rgba(0, 242, 254, 0.2);
+  background: rgba(37, 99, 235, 0.25);
+  color: #93c5fd;
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.3);
 }
 
 /* メインコンテンツエリア */
@@ -243,7 +244,7 @@ body {
 
 .transcript-container::-webkit-scrollbar-thumb,
 .full-text-container::-webkit-scrollbar-thumb {
-  background: rgba(0, 242, 254, 0.2);
+  background: rgba(37, 99, 235, 0.3);
   border-radius: 3px;
 }
 
@@ -295,11 +296,11 @@ body {
   transition: all 0.3s ease;
 }
 
-/* 再生中の文（すりガラスプレートが浮き上がる） */
+/* 再生中の文（ブルーのすりガラスプレートが浮き上がる） */
 .sentence.active-sentence {
   background: var(--glass-card);
   border: 1px solid var(--glass-border-light);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 0 15px rgba(255, 255, 255, 0.02);
+  box-shadow: 0 8px 32px 0 rgba(2, 6, 23, 0.4), inset 0 0 15px rgba(59, 130, 246, 0.05);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
@@ -315,21 +316,21 @@ body {
 
 .word:hover {
   color: var(--text-main);
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(59, 130, 246, 0.15);
 }
 
-/* ネオンゴールドハイライト */
+/* ネオンブルー/アイスブルー ハイライト */
 .word.active {
-  color: var(--neon-gold);
+  color: #93c5fd;
   font-weight: 700;
-  text-shadow: 0 0 8px rgba(255, 221, 103, 0.9), 0 0 20px rgba(255, 221, 103, 0.4);
+  text-shadow: 0 0 8px rgba(96, 165, 250, 0.9), 0 0 20px rgba(37, 99, 235, 0.6);
   transform: translateY(-1px) scale(1.04);
 }
 
 /* プレイヤーカード */
 .player-card {
   padding: 1.2rem 1.5rem;
-  background: rgba(10, 13, 20, 0.45);
+  background: rgba(11, 17, 32, 0.65);
   border-top: 1px solid var(--glass-border);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -347,20 +348,20 @@ body {
   height: 44px;
   border-radius: 50%;
   border: none;
-  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-blue));
-  color: #07090e;
+  background: linear-gradient(135deg, #60a5fa, #1d4ed8);
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0 0 18px rgba(0, 242, 254, 0.45);
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   flex-shrink: 0;
 }
 
 .play-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 24px rgba(0, 242, 254, 0.7);
+  box-shadow: 0 0 28px rgba(59, 130, 246, 0.8);
 }
 
 .play-btn:active {
@@ -401,8 +402,8 @@ body {
 .progress-bar {
   height: 100%;
   width: 0%;
-  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-blue));
-  box-shadow: 0 0 12px var(--neon-cyan);
+  background: linear-gradient(90deg, #60a5fa, #1d4ed8);
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.8);
   border-radius: 3px;
   transition: width 0.1s linear;
 }
