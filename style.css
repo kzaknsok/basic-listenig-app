@@ -13,6 +13,9 @@
   --neon-blue: #1d4ed8;       /* ロイヤルブルー */
   --neon-accent: #60a5fa;     /* アイスブルー */
   
+  /* 蛍光グリーン（ハイライト用） */
+  --neon-green: #39ff14;      /* ネオンライムグリーン */
+  
   /* テキストカラー */
   --text-main: #f0f6ff;
   --text-muted: #64748b;
@@ -319,11 +322,11 @@ body {
   background-color: rgba(59, 130, 246, 0.15);
 }
 
-/* ネオンブルー/アイスブルー ハイライト */
+/* 蛍光グリーン ハイライト（文字を追いかける色） */
 .word.active {
-  color: #93c5fd;
+  color: var(--neon-green);
   font-weight: 700;
-  text-shadow: 0 0 8px rgba(96, 165, 250, 0.9), 0 0 20px rgba(37, 99, 235, 0.6);
+  text-shadow: 0 0 8px rgba(57, 255, 20, 0.9), 0 0 20px rgba(57, 255, 20, 0.5);
   transform: translateY(-1px) scale(1.04);
 }
 
