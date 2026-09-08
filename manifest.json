@@ -10,6 +10,11 @@
     "audioExt": ".mp3"
   },
   {
+    "id": "English_Sound_Phrases_Only",
+    "title": "English Sound Phrases Only",
+    "audioExt": ".mp3"
+  },
+  {
     "id": "phrases300",
     "title": "phrases300",
     "audioExt": ".mp3"

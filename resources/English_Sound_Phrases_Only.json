@@ -1,0 +1,4577 @@
+[
+  {
+    "text": "Peter",
+    "start": 0.62,
+    "end": 0.64
+  },
+  {
+    "text": "Piper",
+    "start": 0.64,
+    "end": 1.06
+  },
+  {
+    "text": "picked",
+    "start": 1.06,
+    "end": 1.36
+  },
+  {
+    "text": "a",
+    "start": 1.44,
+    "end": 1.56
+  },
+  {
+    "text": "peck",
+    "start": 1.56,
+    "end": 1.76
+  },
+  {
+    "text": "of",
+    "start": 1.76,
+    "end": 1.96
+  },
+  {
+    "text": "pickled",
+    "start": 2.02,
+    "end": 2.2
+  },
+  {
+    "text": "peppers.",
+    "start": 2.2,
+    "end": 2.7
+  },
+  {
+    "text": "A",
+    "start": 3.86,
+    "end": 3.86
+  },
+  {
+    "text": "silly",
+    "start": 3.86,
+    "end": 4.12
+  },
+  {
+    "text": "snake",
+    "start": 4.12,
+    "end": 4.44
+  },
+  {
+    "text": "slithered",
+    "start": 4.44,
+    "end": 5.02
+  },
+  {
+    "text": "silently",
+    "start": 5.02,
+    "end": 5.36
+  },
+  {
+    "text": "through",
+    "start": 5.36,
+    "end": 5.74
+  },
+  {
+    "text": "the",
+    "start": 5.74,
+    "end": 5.88
+  },
+  {
+    "text": "sand.",
+    "start": 5.88,
+    "end": 6.2
+  },
+  {
+    "text": "Big",
+    "start": 7.48,
+    "end": 7.5
+  },
+  {
+    "text": "black",
+    "start": 7.5,
+    "end": 7.82
+  },
+  {
+    "text": "bears",
+    "start": 7.82,
+    "end": 8.12
+  },
+  {
+    "text": "bake",
+    "start": 8.12,
+    "end": 8.42
+  },
+  {
+    "text": "brown",
+    "start": 8.42,
+    "end": 8.78
+  },
+  {
+    "text": "bread.",
+    "start": 8.78,
+    "end": 9.2
+  },
+  {
+    "text": "Five",
+    "start": 10.5,
+    "end": 10.54
+  },
+  {
+    "text": "funny",
+    "start": 10.54,
+    "end": 10.78
+  },
+  {
+    "text": "frogs",
+    "start": 10.78,
+    "end": 11.12
+  },
+  {
+    "text": "flew",
+    "start": 11.12,
+    "end": 11.44
+  },
+  {
+    "text": "far",
+    "start": 11.44,
+    "end": 11.76
+  },
+  {
+    "text": "away.",
+    "start": 11.76,
+    "end": 12.08
+  },
+  {
+    "text": "Can",
+    "start": 13.18,
+    "end": 13.24
+  },
+  {
+    "text": "you",
+    "start": 13.24,
+    "end": 13.36
+  },
+  {
+    "text": "can",
+    "start": 13.36,
+    "end": 13.48
+  },
+  {
+    "text": "a",
+    "start": 13.48,
+    "end": 13.6
+  },
+  {
+    "text": "can",
+    "start": 13.6,
+    "end": 13.84
+  },
+  {
+    "text": "as",
+    "start": 13.84,
+    "end": 14.24
+  },
+  {
+    "text": "a",
+    "start": 14.24,
+    "end": 14.34
+  },
+  {
+    "text": "canner",
+    "start": 14.34,
+    "end": 14.76
+  },
+  {
+    "text": "can",
+    "start": 14.76,
+    "end": 14.94
+  },
+  {
+    "text": "can",
+    "start": 14.94,
+    "end": 15.1
+  },
+  {
+    "text": "a",
+    "start": 15.1,
+    "end": 15.24
+  },
+  {
+    "text": "can?",
+    "start": 15.24,
+    "end": 15.58
+  },
+  {
+    "text": "Sally",
+    "start": 16.84,
+    "end": 16.94
+  },
+  {
+    "text": "sells",
+    "start": 16.94,
+    "end": 17.3
+  },
+  {
+    "text": "seashells",
+    "start": 17.3,
+    "end": 17.9
+  },
+  {
+    "text": "by",
+    "start": 17.9,
+    "end": 18.02
+  },
+  {
+    "text": "the",
+    "start": 18.02,
+    "end": 18.16
+  },
+  {
+    "text": "seashore.",
+    "start": 18.16,
+    "end": 18.62
+  },
+  {
+    "text": "Two",
+    "start": 19.7,
+    "end": 19.82
+  },
+  {
+    "text": "tiny",
+    "start": 19.82,
+    "end": 20.16
+  },
+  {
+    "text": "tigers",
+    "start": 20.16,
+    "end": 20.56
+  },
+  {
+    "text": "took",
+    "start": 20.56,
+    "end": 20.78
+  },
+  {
+    "text": "two",
+    "start": 20.92,
+    "end": 21.08
+  },
+  {
+    "text": "tickets",
+    "start": 21.08,
+    "end": 21.38
+  },
+  {
+    "text": "to",
+    "start": 21.38,
+    "end": 21.64
+  },
+  {
+    "text": "Townsville.",
+    "start": 21.64,
+    "end": 22.39
+  },
+  {
+    "text": "Greedy",
+    "start": 23.46,
+    "end": 23.58
+  },
+  {
+    "text": "goats",
+    "start": 23.58,
+    "end": 23.84
+  },
+  {
+    "text": "gobbled",
+    "start": 23.84,
+    "end": 24.42
+  },
+  {
+    "text": "green",
+    "start": 24.42,
+    "end": 24.78
+  },
+  {
+    "text": "grass",
+    "start": 24.78,
+    "end": 25.1
+  },
+  {
+    "text": "in",
+    "start": 25.1,
+    "end": 25.4
+  },
+  {
+    "text": "the",
+    "start": 25.4,
+    "end": 25.5
+  },
+  {
+    "text": "garden.",
+    "start": 25.5,
+    "end": 25.76
+  },
+  {
+    "text": "Dan's",
+    "start": 27.1,
+    "end": 27.3
+  },
+  {
+    "text": "dog",
+    "start": 27.3,
+    "end": 27.54
+  },
+  {
+    "text": "dug",
+    "start": 27.54,
+    "end": 27.8
+  },
+  {
+    "text": "deep",
+    "start": 27.8,
+    "end": 28.1
+  },
+  {
+    "text": "down",
+    "start": 28.1,
+    "end": 28.4
+  },
+  {
+    "text": "in",
+    "start": 28.4,
+    "end": 28.56
+  },
+  {
+    "text": "the",
+    "start": 28.56,
+    "end": 28.66
+  },
+  {
+    "text": "dirt.",
+    "start": 28.66,
+    "end": 29.31
+  },
+  {
+    "text": "Molly",
+    "start": 30.22,
+    "end": 30.22
+  },
+  {
+    "text": "made",
+    "start": 30.22,
+    "end": 30.52
+  },
+  {
+    "text": "many",
+    "start": 30.52,
+    "end": 30.78
+  },
+  {
+    "text": "marshmallows",
+    "start": 30.78,
+    "end": 31.36
+  },
+  {
+    "text": "for",
+    "start": 31.36,
+    "end": 31.66
+  },
+  {
+    "text": "May.",
+    "start": 31.66,
+    "end": 31.88
+  },
+  {
+    "text": "A",
+    "start": 33.06,
+    "end": 33.06
+  },
+  {
+    "text": "fat",
+    "start": 33.06,
+    "end": 33.28
+  },
+  {
+    "text": "cat",
+    "start": 33.28,
+    "end": 33.5
+  },
+  {
+    "text": "sat",
+    "start": 33.66,
+    "end": 33.8
+  },
+  {
+    "text": "on",
+    "start": 33.8,
+    "end": 33.98
+  },
+  {
+    "text": "a",
+    "start": 33.98,
+    "end": 34.06
+  },
+  {
+    "text": "mat",
+    "start": 34.06,
+    "end": 34.24
+  },
+  {
+    "text": "and",
+    "start": 34.24,
+    "end": 34.62
+  },
+  {
+    "text": "patted",
+    "start": 34.62,
+    "end": 34.96
+  },
+  {
+    "text": "a",
+    "start": 34.96,
+    "end": 35.16
+  },
+  {
+    "text": "rat.",
+    "start": 35.16,
+    "end": 35.4
+  },
+  {
+    "text": "The",
+    "start": 36.56,
+    "end": 36.56
+  },
+  {
+    "text": "red",
+    "start": 36.56,
+    "end": 36.72
+  },
+  {
+    "text": "hen",
+    "start": 36.72,
+    "end": 37.0
+  },
+  {
+    "text": "rested",
+    "start": 37.0,
+    "end": 37.36
+  },
+  {
+    "text": "in",
+    "start": 37.42,
+    "end": 37.56
+  },
+  {
+    "text": "her",
+    "start": 37.56,
+    "end": 37.64
+  },
+  {
+    "text": "nest",
+    "start": 37.64,
+    "end": 37.84
+  },
+  {
+    "text": "with",
+    "start": 37.84,
+    "end": 38.16
+  },
+  {
+    "text": "ten",
+    "start": 38.3,
+    "end": 38.44
+  },
+  {
+    "text": "eggs.",
+    "start": 38.44,
+    "end": 38.78
+  },
+  {
+    "text": "Six",
+    "start": 40.2,
+    "end": 40.2
+  },
+  {
+    "text": "sick",
+    "start": 40.2,
+    "end": 40.5
+  },
+  {
+    "text": "chicks",
+    "start": 40.56,
+    "end": 40.76
+  },
+  {
+    "text": "stick",
+    "start": 40.76,
+    "end": 41.04
+  },
+  {
+    "text": "to",
+    "start": 41.04,
+    "end": 41.24
+  },
+  {
+    "text": "bricks.",
+    "start": 41.24,
+    "end": 41.54
+  },
+  {
+    "text": "A",
+    "start": 42.64,
+    "end": 42.72
+  },
+  {
+    "text": "slow",
+    "start": 42.72,
+    "end": 43.0
+  },
+  {
+    "text": "goat",
+    "start": 43.0,
+    "end": 43.26
+  },
+  {
+    "text": "in",
+    "start": 43.26,
+    "end": 43.46
+  },
+  {
+    "text": "a",
+    "start": 43.46,
+    "end": 43.58
+  },
+  {
+    "text": "coat",
+    "start": 43.6,
+    "end": 43.74
+  },
+  {
+    "text": "rode",
+    "start": 43.74,
+    "end": 44.04
+  },
+  {
+    "text": "a",
+    "start": 44.04,
+    "end": 44.24
+  },
+  {
+    "text": "boat",
+    "start": 44.24,
+    "end": 44.34
+  },
+  {
+    "text": "on",
+    "start": 44.34,
+    "end": 44.52
+  },
+  {
+    "text": "the",
+    "start": 44.52,
+    "end": 44.62
+  },
+  {
+    "text": "moat.",
+    "start": 44.62,
+    "end": 44.84
+  },
+  {
+    "text": "The",
+    "start": 45.88,
+    "end": 46.0
+  },
+  {
+    "text": "cool",
+    "start": 46.1,
+    "end": 46.24
+  },
+  {
+    "text": "duck",
+    "start": 46.24,
+    "end": 46.52
+  },
+  {
+    "text": "in",
+    "start": 46.52,
+    "end": 46.68
+  },
+  {
+    "text": "the",
+    "start": 46.68,
+    "end": 46.78
+  },
+  {
+    "text": "truck",
+    "start": 46.78,
+    "end": 46.98
+  },
+  {
+    "text": "got",
+    "start": 46.98,
+    "end": 47.24
+  },
+  {
+    "text": "stuck",
+    "start": 47.24,
+    "end": 47.52
+  },
+  {
+    "text": "in",
+    "start": 47.52,
+    "end": 47.72
+  },
+  {
+    "text": "the",
+    "start": 47.72,
+    "end": 47.8
+  },
+  {
+    "text": "mud.",
+    "start": 47.8,
+    "end": 48.06
+  },
+  {
+    "text": "Fly",
+    "start": 49.28,
+    "end": 49.3
+  },
+  {
+    "text": "high",
+    "start": 49.3,
+    "end": 49.58
+  },
+  {
+    "text": "in",
+    "start": 49.58,
+    "end": 49.72
+  },
+  {
+    "text": "the",
+    "start": 49.72,
+    "end": 49.8
+  },
+  {
+    "text": "sky",
+    "start": 49.8,
+    "end": 50.02
+  },
+  {
+    "text": "and",
+    "start": 50.02,
+    "end": 50.38
+  },
+  {
+    "text": "say",
+    "start": 50.38,
+    "end": 50.58
+  },
+  {
+    "text": "goodbye.",
+    "start": 50.58,
+    "end": 51.1
+  },
+  {
+    "text": "A",
+    "start": 52.24,
+    "end": 52.28
+  },
+  {
+    "text": "white",
+    "start": 52.28,
+    "end": 52.5
+  },
+  {
+    "text": "mice",
+    "start": 52.5,
+    "end": 52.72
+  },
+  {
+    "text": "ice",
+    "start": 52.72,
+    "end": 53.04
+  },
+  {
+    "text": "cream",
+    "start": 53.04,
+    "end": 53.34
+  },
+  {
+    "text": "twice",
+    "start": 53.34,
+    "end": 53.68
+  },
+  {
+    "text": "a",
+    "start": 53.68,
+    "end": 53.92
+  },
+  {
+    "text": "day.",
+    "start": 53.92,
+    "end": 54.18
+  },
+  {
+    "text": "Cute",
+    "start": 55.34,
+    "end": 55.44
+  },
+  {
+    "text": "mules",
+    "start": 55.44,
+    "end": 55.8
+  },
+  {
+    "text": "use",
+    "start": 55.8,
+    "end": 56.14
+  },
+  {
+    "text": "blue",
+    "start": 56.14,
+    "end": 56.4
+  },
+  {
+    "text": "boots",
+    "start": 56.4,
+    "end": 56.68
+  },
+  {
+    "text": "in",
+    "start": 56.78,
+    "end": 56.88
+  },
+  {
+    "text": "the",
+    "start": 56.88,
+    "end": 57.0
+  },
+  {
+    "text": "zoo.",
+    "start": 57.0,
+    "end": 57.28
+  },
+  {
+    "text": "The",
+    "start": 58.38,
+    "end": 58.38
+  },
+  {
+    "text": "bright",
+    "start": 58.38,
+    "end": 58.62
+  },
+  {
+    "text": "light",
+    "start": 58.62,
+    "end": 58.88
+  },
+  {
+    "text": "shines",
+    "start": 58.88,
+    "end": 59.2
+  },
+  {
+    "text": "at",
+    "start": 59.2,
+    "end": 59.44
+  },
+  {
+    "text": "night.",
+    "start": 59.44,
+    "end": 59.66
+  },
+  {
+    "text": "Sweet",
+    "start": 60.92,
+    "end": 60.92
+  },
+  {
+    "text": "bees",
+    "start": 60.92,
+    "end": 61.18
+  },
+  {
+    "text": "sleep",
+    "start": 61.18,
+    "end": 61.52
+  },
+  {
+    "text": "near",
+    "start": 61.68,
+    "end": 61.8
+  },
+  {
+    "text": "green",
+    "start": 61.8,
+    "end": 62.12
+  },
+  {
+    "text": "trees.",
+    "start": 62.12,
+    "end": 62.54
+  },
+  {
+    "text": "Look",
+    "start": 63.76,
+    "end": 63.84
+  },
+  {
+    "text": "at",
+    "start": 63.84,
+    "end": 63.96
+  },
+  {
+    "text": "the",
+    "start": 63.96,
+    "end": 64.06
+  },
+  {
+    "text": "red",
+    "start": 64.06,
+    "end": 64.24
+  },
+  {
+    "text": "ship",
+    "start": 64.24,
+    "end": 64.52
+  },
+  {
+    "text": "and",
+    "start": 64.52,
+    "end": 64.78
+  },
+  {
+    "text": "the",
+    "start": 64.78,
+    "end": 64.9
+  },
+  {
+    "text": "blue",
+    "start": 64.9,
+    "end": 65.1
+  },
+  {
+    "text": "sheep.",
+    "start": 65.1,
+    "end": 65.4
+  },
+  {
+    "text": "The",
+    "start": 66.58,
+    "end": 66.58
+  },
+  {
+    "text": "rubber",
+    "start": 66.58,
+    "end": 66.84
+  },
+  {
+    "text": "duck",
+    "start": 66.84,
+    "end": 67.16
+  },
+  {
+    "text": "ran",
+    "start": 67.46,
+    "end": 67.62
+  },
+  {
+    "text": "along",
+    "start": 67.62,
+    "end": 67.96
+  },
+  {
+    "text": "the",
+    "start": 67.96,
+    "end": 68.16
+  },
+  {
+    "text": "right",
+    "start": 68.16,
+    "end": 68.34
+  },
+  {
+    "text": "road.",
+    "start": 68.34,
+    "end": 68.99
+  },
+  {
+    "text": "Lucy",
+    "start": 69.98,
+    "end": 70.14
+  },
+  {
+    "text": "loves",
+    "start": 70.14,
+    "end": 70.48
+  },
+  {
+    "text": "lemon",
+    "start": 70.48,
+    "end": 70.84
+  },
+  {
+    "text": "lollipop",
+    "start": 70.84,
+    "end": 71.42
+  },
+  {
+    "text": "rolls.",
+    "start": 71.42,
+    "end": 71.82
+  },
+  {
+    "text": "Think",
+    "start": 73.0,
+    "end": 73.1
+  },
+  {
+    "text": "thirty",
+    "start": 73.1,
+    "end": 73.4
+  },
+  {
+    "text": "thoughts",
+    "start": 73.4,
+    "end": 73.72
+  },
+  {
+    "text": "on",
+    "start": 73.72,
+    "end": 74.08
+  },
+  {
+    "text": "Thursday.",
+    "start": 74.08,
+    "end": 74.7
+  },
+  {
+    "text": "This",
+    "start": 75.8,
+    "end": 75.92
+  },
+  {
+    "text": "brother",
+    "start": 75.92,
+    "end": 76.3
+  },
+  {
+    "text": "and",
+    "start": 76.3,
+    "end": 76.54
+  },
+  {
+    "text": "that",
+    "start": 76.54,
+    "end": 76.74
+  },
+  {
+    "text": "mother",
+    "start": 76.74,
+    "end": 77.1
+  },
+  {
+    "text": "are",
+    "start": 77.36,
+    "end": 77.46
+  },
+  {
+    "text": "together.",
+    "start": 77.46,
+    "end": 77.92
+  },
+  {
+    "text": "A",
+    "start": 79.0,
+    "end": 79.06
+  },
+  {
+    "text": "very",
+    "start": 79.06,
+    "end": 79.34
+  },
+  {
+    "text": "fast",
+    "start": 79.34,
+    "end": 79.82
+  },
+  {
+    "text": "van",
+    "start": 79.82,
+    "end": 80.08
+  },
+  {
+    "text": "with",
+    "start": 80.08,
+    "end": 80.4
+  },
+  {
+    "text": "a",
+    "start": 80.4,
+    "end": 80.5
+  },
+  {
+    "text": "full",
+    "start": 80.5,
+    "end": 80.7
+  },
+  {
+    "text": "tank",
+    "start": 80.82,
+    "end": 80.92
+  },
+  {
+    "text": "of",
+    "start": 80.92,
+    "end": 81.16
+  },
+  {
+    "text": "gas.",
+    "start": 81.16,
+    "end": 81.46
+  },
+  {
+    "text": "Pass",
+    "start": 82.7,
+    "end": 82.8
+  },
+  {
+    "text": "the",
+    "start": 82.8,
+    "end": 83.0
+  },
+  {
+    "text": "glass",
+    "start": 83.0,
+    "end": 83.2
+  },
+  {
+    "text": "on",
+    "start": 83.2,
+    "end": 83.48
+  },
+  {
+    "text": "the",
+    "start": 83.48,
+    "end": 83.58
+  },
+  {
+    "text": "green",
+    "start": 83.58,
+    "end": 83.82
+  },
+  {
+    "text": "grass.",
+    "start": 83.82,
+    "end": 84.18
+  },
+  {
+    "text": "No",
+    "start": 85.38,
+    "end": 85.48
+  },
+  {
+    "text": "pain,",
+    "start": 85.48,
+    "end": 85.9
+  },
+  {
+    "text": "no",
+    "start": 85.98,
+    "end": 85.98
+  },
+  {
+    "text": "gain,",
+    "start": 85.98,
+    "end": 86.34
+  },
+  {
+    "text": "rain",
+    "start": 86.86,
+    "end": 86.88
+  },
+  {
+    "text": "comes",
+    "start": 86.88,
+    "end": 87.18
+  },
+  {
+    "text": "again.",
+    "start": 87.18,
+    "end": 87.64
+  },
+  {
+    "text": "Four",
+    "start": 88.86,
+    "end": 88.92
+  },
+  {
+    "text": "pork",
+    "start": 88.92,
+    "end": 89.26
+  },
+  {
+    "text": "forks",
+    "start": 89.26,
+    "end": 89.62
+  },
+  {
+    "text": "on",
+    "start": 89.62,
+    "end": 89.72
+  },
+  {
+    "text": "a",
+    "start": 89.72,
+    "end": 89.8
+  },
+  {
+    "text": "short",
+    "start": 89.8,
+    "end": 90.02
+  },
+  {
+    "text": "board.",
+    "start": 90.02,
+    "end": 90.44
+  },
+  {
+    "text": "He",
+    "start": 91.56,
+    "end": 91.62
+  },
+  {
+    "text": "thought",
+    "start": 91.62,
+    "end": 91.88
+  },
+  {
+    "text": "he",
+    "start": 91.88,
+    "end": 92.04
+  },
+  {
+    "text": "bought",
+    "start": 92.04,
+    "end": 92.24
+  },
+  {
+    "text": "a",
+    "start": 92.24,
+    "end": 92.42
+  },
+  {
+    "text": "hot",
+    "start": 92.42,
+    "end": 92.52
+  },
+  {
+    "text": "pot.",
+    "start": 92.52,
+    "end": 92.97
+  },
+  {
+    "text": "Betty",
+    "start": 94.1,
+    "end": 94.2
+  },
+  {
+    "text": "Botter",
+    "start": 94.2,
+    "end": 94.68
+  },
+  {
+    "text": "bought",
+    "start": 94.68,
+    "end": 95.0
+  },
+  {
+    "text": "a",
+    "start": 95.0,
+    "end": 95.2
+  },
+  {
+    "text": "bit",
+    "start": 95.2,
+    "end": 95.32
+  },
+  {
+    "text": "of",
+    "start": 95.32,
+    "end": 95.48
+  },
+  {
+    "text": "butter.",
+    "start": 95.48,
+    "end": 95.72
+  },
+  {
+    "text": "Which",
+    "start": 96.86,
+    "end": 96.96
+  },
+  {
+    "text": "witch",
+    "start": 96.96,
+    "end": 97.26
+  },
+  {
+    "text": "switched",
+    "start": 97.26,
+    "end": 97.58
+  },
+  {
+    "text": "the",
+    "start": 97.64,
+    "end": 97.74
+  },
+  {
+    "text": "Swiss",
+    "start": 97.74,
+    "end": 97.98
+  },
+  {
+    "text": "wristwatches?",
+    "start": 97.98,
+    "end": 98.64
+  },
+  {
+    "text": "Fresh",
+    "start": 99.9,
+    "end": 100.04
+  },
+  {
+    "text": "fried",
+    "start": 100.04,
+    "end": 100.34
+  },
+  {
+    "text": "fish,",
+    "start": 100.34,
+    "end": 100.8
+  },
+  {
+    "text": "fish",
+    "start": 101.02,
+    "end": 101.14
+  },
+  {
+    "text": "fresh",
+    "start": 101.14,
+    "end": 101.48
+  },
+  {
+    "text": "fried.",
+    "start": 101.48,
+    "end": 102.33
+  },
+  {
+    "text": "Nine",
+    "start": 103.02,
+    "end": 103.1
+  },
+  {
+    "text": "nice",
+    "start": 103.1,
+    "end": 103.44
+  },
+  {
+    "text": "nightingales",
+    "start": 103.44,
+    "end": 104.0
+  },
+  {
+    "text": "sang",
+    "start": 104.0,
+    "end": 104.28
+  },
+  {
+    "text": "nine",
+    "start": 104.28,
+    "end": 104.58
+  },
+  {
+    "text": "night",
+    "start": 104.58,
+    "end": 104.8
+  },
+  {
+    "text": "songs.",
+    "start": 104.8,
+    "end": 105.22
+  },
+  {
+    "text": "Six",
+    "start": 106.48,
+    "end": 106.64
+  },
+  {
+    "text": "slimy",
+    "start": 106.76,
+    "end": 106.96
+  },
+  {
+    "text": "snails",
+    "start": 106.96,
+    "end": 107.48
+  },
+  {
+    "text": "slid",
+    "start": 107.48,
+    "end": 107.78
+  },
+  {
+    "text": "slowly",
+    "start": 107.78,
+    "end": 108.2
+  },
+  {
+    "text": "down",
+    "start": 108.2,
+    "end": 108.46
+  },
+  {
+    "text": "the",
+    "start": 108.46,
+    "end": 108.64
+  },
+  {
+    "text": "slide.",
+    "start": 108.64,
+    "end": 108.96
+  },
+  {
+    "text": "Clean",
+    "start": 110.26,
+    "end": 110.28
+  },
+  {
+    "text": "clams",
+    "start": 110.28,
+    "end": 110.68
+  },
+  {
+    "text": "crammed",
+    "start": 110.68,
+    "end": 111.12
+  },
+  {
+    "text": "in",
+    "start": 111.12,
+    "end": 111.26
+  },
+  {
+    "text": "clean",
+    "start": 111.26,
+    "end": 111.5
+  },
+  {
+    "text": "cans.",
+    "start": 111.5,
+    "end": 112.0
+  },
+  {
+    "text": "Four",
+    "start": 113.24,
+    "end": 113.38
+  },
+  {
+    "text": "fine",
+    "start": 113.38,
+    "end": 113.7
+  },
+  {
+    "text": "fresh",
+    "start": 113.7,
+    "end": 113.96
+  },
+  {
+    "text": "fish",
+    "start": 113.96,
+    "end": 114.24
+  },
+  {
+    "text": "for",
+    "start": 114.24,
+    "end": 114.5
+  },
+  {
+    "text": "you.",
+    "start": 114.5,
+    "end": 114.66
+  },
+  {
+    "text": "He",
+    "start": 115.8,
+    "end": 115.8
+  },
+  {
+    "text": "threw",
+    "start": 115.8,
+    "end": 116.1
+  },
+  {
+    "text": "three",
+    "start": 116.1,
+    "end": 116.46
+  },
+  {
+    "text": "free",
+    "start": 116.46,
+    "end": 116.7
+  },
+  {
+    "text": "throws.",
+    "start": 116.7,
+    "end": 117.45
+  },
+  {
+    "text": "Denise",
+    "start": 118.42,
+    "end": 118.42
+  },
+  {
+    "text": "sees",
+    "start": 118.42,
+    "end": 118.78
+  },
+  {
+    "text": "the",
+    "start": 118.78,
+    "end": 118.94
+  },
+  {
+    "text": "sun,",
+    "start": 118.94,
+    "end": 119.62
+  },
+  {
+    "text": "Louise",
+    "start": 119.64,
+    "end": 119.78
+  },
+  {
+    "text": "sees",
+    "start": 119.78,
+    "end": 120.16
+  },
+  {
+    "text": "the",
+    "start": 120.16,
+    "end": 120.36
+  },
+  {
+    "text": "stars.",
+    "start": 120.36,
+    "end": 120.72
+  },
+  {
+    "text": "Tiny",
+    "start": 122.04,
+    "end": 122.12
+  },
+  {
+    "text": "Tim",
+    "start": 122.12,
+    "end": 122.34
+  },
+  {
+    "text": "tipped",
+    "start": 122.34,
+    "end": 122.64
+  },
+  {
+    "text": "two",
+    "start": 122.64,
+    "end": 122.9
+  },
+  {
+    "text": "tall",
+    "start": 122.92,
+    "end": 123.14
+  },
+  {
+    "text": "tables.",
+    "start": 123.14,
+    "end": 123.54
+  },
+  {
+    "text": "A",
+    "start": 124.78,
+    "end": 124.84
+  },
+  {
+    "text": "big",
+    "start": 124.84,
+    "end": 125.04
+  },
+  {
+    "text": "bug",
+    "start": 125.04,
+    "end": 125.28
+  },
+  {
+    "text": "bit",
+    "start": 125.28,
+    "end": 125.52
+  },
+  {
+    "text": "a",
+    "start": 125.52,
+    "end": 125.64
+  },
+  {
+    "text": "bold",
+    "start": 125.64,
+    "end": 125.9
+  },
+  {
+    "text": "black",
+    "start": 125.9,
+    "end": 126.3
+  },
+  {
+    "text": "bear.",
+    "start": 126.3,
+    "end": 126.6
+  },
+  {
+    "text": "Ten",
+    "start": 127.72,
+    "end": 127.84
+  },
+  {
+    "text": "tall",
+    "start": 127.84,
+    "end": 128.14
+  },
+  {
+    "text": "trees",
+    "start": 128.14,
+    "end": 128.46
+  },
+  {
+    "text": "stood",
+    "start": 128.46,
+    "end": 128.78
+  },
+  {
+    "text": "in",
+    "start": 128.78,
+    "end": 128.94
+  },
+  {
+    "text": "the",
+    "start": 128.94,
+    "end": 129.0
+  },
+  {
+    "text": "green",
+    "start": 129.0,
+    "end": 129.26
+  },
+  {
+    "text": "park.",
+    "start": 129.26,
+    "end": 129.64
+  },
+  {
+    "text": "The",
+    "start": 130.74,
+    "end": 130.82
+  },
+  {
+    "text": "brown",
+    "start": 130.82,
+    "end": 131.06
+  },
+  {
+    "text": "owl",
+    "start": 131.06,
+    "end": 131.4
+  },
+  {
+    "text": "found",
+    "start": 131.4,
+    "end": 131.72
+  },
+  {
+    "text": "a",
+    "start": 131.72,
+    "end": 131.86
+  },
+  {
+    "text": "mouse",
+    "start": 131.86,
+    "end": 132.06
+  },
+  {
+    "text": "in",
+    "start": 132.06,
+    "end": 132.22
+  },
+  {
+    "text": "the",
+    "start": 132.22,
+    "end": 132.32
+  },
+  {
+    "text": "house.",
+    "start": 132.32,
+    "end": 132.78
+  },
+  {
+    "text": "A",
+    "start": 133.7,
+    "end": 133.76
+  },
+  {
+    "text": "fat",
+    "start": 133.76,
+    "end": 134.04
+  },
+  {
+    "text": "rat",
+    "start": 134.04,
+    "end": 134.24
+  },
+  {
+    "text": "ran",
+    "start": 134.24,
+    "end": 134.56
+  },
+  {
+    "text": "after",
+    "start": 134.56,
+    "end": 134.96
+  },
+  {
+    "text": "a",
+    "start": 134.96,
+    "end": 135.08
+  },
+  {
+    "text": "black",
+    "start": 135.08,
+    "end": 135.28
+  },
+  {
+    "text": "hat.",
+    "start": 135.28,
+    "end": 135.62
+  },
+  {
+    "text": "A",
+    "start": 136.68,
+    "end": 136.76
+  },
+  {
+    "text": "bright",
+    "start": 136.76,
+    "end": 136.94
+  },
+  {
+    "text": "star",
+    "start": 136.94,
+    "end": 137.3
+  },
+  {
+    "text": "shines",
+    "start": 137.3,
+    "end": 137.52
+  },
+  {
+    "text": "near",
+    "start": 137.52,
+    "end": 137.9
+  },
+  {
+    "text": "and",
+    "start": 137.9,
+    "end": 138.1
+  },
+  {
+    "text": "far.",
+    "start": 138.1,
+    "end": 138.42
+  },
+  {
+    "text": "The",
+    "start": 139.5,
+    "end": 139.58
+  },
+  {
+    "text": "neat",
+    "start": 139.58,
+    "end": 139.72
+  },
+  {
+    "text": "cat",
+    "start": 139.72,
+    "end": 139.96
+  },
+  {
+    "text": "has",
+    "start": 139.96,
+    "end": 140.18
+  },
+  {
+    "text": "four",
+    "start": 140.18,
+    "end": 140.46
+  },
+  {
+    "text": "neat",
+    "start": 140.46,
+    "end": 140.66
+  },
+  {
+    "text": "feet.",
+    "start": 140.66,
+    "end": 141.04
+  },
+  {
+    "text": "A",
+    "start": 142.04,
+    "end": 142.14
+  },
+  {
+    "text": "thick",
+    "start": 142.14,
+    "end": 142.4
+  },
+  {
+    "text": "brick",
+    "start": 142.4,
+    "end": 142.64
+  },
+  {
+    "text": "fell",
+    "start": 142.64,
+    "end": 142.92
+  },
+  {
+    "text": "on",
+    "start": 142.92,
+    "end": 143.12
+  },
+  {
+    "text": "the",
+    "start": 143.12,
+    "end": 143.22
+  },
+  {
+    "text": "quick",
+    "start": 143.22,
+    "end": 143.38
+  },
+  {
+    "text": "chick.",
+    "start": 143.38,
+    "end": 143.48
+  },
+  {
+    "text": "Cold",
+    "start": 144.96,
+    "end": 144.96
+  },
+  {
+    "text": "snow",
+    "start": 144.96,
+    "end": 145.34
+  },
+  {
+    "text": "blows",
+    "start": 145.34,
+    "end": 145.66
+  },
+  {
+    "text": "when",
+    "start": 145.66,
+    "end": 146.02
+  },
+  {
+    "text": "the",
+    "start": 146.02,
+    "end": 146.12
+  },
+  {
+    "text": "North",
+    "start": 146.12,
+    "end": 146.32
+  },
+  {
+    "text": "wind",
+    "start": 146.32,
+    "end": 146.56
+  },
+  {
+    "text": "blows.",
+    "start": 146.56,
+    "end": 147.0
+  },
+  {
+    "text": "He",
+    "start": 148.2,
+    "end": 148.24
+  },
+  {
+    "text": "played",
+    "start": 148.24,
+    "end": 148.52
+  },
+  {
+    "text": "in",
+    "start": 148.52,
+    "end": 148.68
+  },
+  {
+    "text": "the",
+    "start": 148.68,
+    "end": 148.78
+  },
+  {
+    "text": "rain",
+    "start": 148.78,
+    "end": 149.02
+  },
+  {
+    "text": "with",
+    "start": 149.02,
+    "end": 149.24
+  },
+  {
+    "text": "a",
+    "start": 149.24,
+    "end": 149.34
+  },
+  {
+    "text": "toy",
+    "start": 149.48,
+    "end": 149.64
+  },
+  {
+    "text": "train.",
+    "start": 149.64,
+    "end": 150.02
+  },
+  {
+    "text": "A",
+    "start": 151.2,
+    "end": 151.22
+  },
+  {
+    "text": "cute",
+    "start": 151.28,
+    "end": 151.44
+  },
+  {
+    "text": "blue",
+    "start": 151.44,
+    "end": 151.68
+  },
+  {
+    "text": "cube",
+    "start": 151.68,
+    "end": 152.06
+  },
+  {
+    "text": "in",
+    "start": 152.06,
+    "end": 152.22
+  },
+  {
+    "text": "a",
+    "start": 152.22,
+    "end": 152.32
+  },
+  {
+    "text": "huge",
+    "start": 152.32,
+    "end": 152.66
+  },
+  {
+    "text": "room.",
+    "start": 152.66,
+    "end": 152.92
+  },
+  {
+    "text": "She",
+    "start": 154.04,
+    "end": 154.14
+  },
+  {
+    "text": "has",
+    "start": 154.14,
+    "end": 154.28
+  },
+  {
+    "text": "three",
+    "start": 154.28,
+    "end": 154.58
+  },
+  {
+    "text": "thin",
+    "start": 154.58,
+    "end": 154.86
+  },
+  {
+    "text": "threads",
+    "start": 154.86,
+    "end": 155.22
+  },
+  {
+    "text": "and",
+    "start": 155.22,
+    "end": 155.46
+  },
+  {
+    "text": "thirty",
+    "start": 155.56,
+    "end": 155.78
+  },
+  {
+    "text": "needles.",
+    "start": 155.78,
+    "end": 156.08
+  },
+  {
+    "text": "The",
+    "start": 157.26,
+    "end": 157.32
+  },
+  {
+    "text": "quiet",
+    "start": 157.32,
+    "end": 157.62
+  },
+  {
+    "text": "queen",
+    "start": 157.62,
+    "end": 157.98
+  },
+  {
+    "text": "questioned",
+    "start": 157.98,
+    "end": 158.46
+  },
+  {
+    "text": "the",
+    "start": 158.46,
+    "end": 158.68
+  },
+  {
+    "text": "quick",
+    "start": 158.68,
+    "end": 158.86
+  },
+  {
+    "text": "knight.",
+    "start": 158.86,
+    "end": 159.14
+  },
+  {
+    "text": "Very",
+    "start": 160.4,
+    "end": 160.5
+  },
+  {
+    "text": "vivid",
+    "start": 160.5,
+    "end": 160.86
+  },
+  {
+    "text": "violets",
+    "start": 160.86,
+    "end": 161.46
+  },
+  {
+    "text": "vanish",
+    "start": 161.64,
+    "end": 161.8
+  },
+  {
+    "text": "in",
+    "start": 161.8,
+    "end": 162.08
+  },
+  {
+    "text": "the",
+    "start": 162.08,
+    "end": 162.18
+  },
+  {
+    "text": "valley.",
+    "start": 162.18,
+    "end": 162.46
+  },
+  {
+    "text": "We",
+    "start": 163.6,
+    "end": 163.7
+  },
+  {
+    "text": "will",
+    "start": 163.7,
+    "end": 163.78
+  },
+  {
+    "text": "watch",
+    "start": 163.78,
+    "end": 164.04
+  },
+  {
+    "text": "the",
+    "start": 164.04,
+    "end": 164.26
+  },
+  {
+    "text": "wild",
+    "start": 164.26,
+    "end": 164.56
+  },
+  {
+    "text": "whales",
+    "start": 164.56,
+    "end": 164.92
+  },
+  {
+    "text": "in",
+    "start": 164.92,
+    "end": 165.18
+  },
+  {
+    "text": "the",
+    "start": 165.18,
+    "end": 165.28
+  },
+  {
+    "text": "west.",
+    "start": 165.28,
+    "end": 165.74
+  },
+  {
+    "text": "The",
+    "start": 166.7,
+    "end": 166.76
+  },
+  {
+    "text": "cheap",
+    "start": 166.76,
+    "end": 166.98
+  },
+  {
+    "text": "chip",
+    "start": 166.98,
+    "end": 167.28
+  },
+  {
+    "text": "fell",
+    "start": 167.28,
+    "end": 167.46
+  },
+  {
+    "text": "off",
+    "start": 167.46,
+    "end": 167.66
+  },
+  {
+    "text": "the",
+    "start": 167.66,
+    "end": 167.82
+  },
+  {
+    "text": "chief's",
+    "start": 167.82,
+    "end": 168.24
+  },
+  {
+    "text": "ship.",
+    "start": 168.24,
+    "end": 168.42
+  },
+  {
+    "text": "Red",
+    "start": 169.48,
+    "end": 169.64
+  },
+  {
+    "text": "leather,",
+    "start": 169.64,
+    "end": 170.14
+  },
+  {
+    "text": "yellow",
+    "start": 170.2,
+    "end": 170.28
+  },
+  {
+    "text": "leather,",
+    "start": 170.28,
+    "end": 170.74
+  },
+  {
+    "text": "red",
+    "start": 170.98,
+    "end": 170.98
+  },
+  {
+    "text": "leather,",
+    "start": 170.98,
+    "end": 171.48
+  },
+  {
+    "text": "yellow",
+    "start": 171.6,
+    "end": 171.68
+  },
+  {
+    "text": "leather.",
+    "start": 171.68,
+    "end": 172.02
+  },
+  {
+    "text": "He",
+    "start": 173.16,
+    "end": 173.24
+  },
+  {
+    "text": "had",
+    "start": 173.24,
+    "end": 173.32
+  },
+  {
+    "text": "a",
+    "start": 173.32,
+    "end": 173.42
+  },
+  {
+    "text": "hard",
+    "start": 173.42,
+    "end": 173.66
+  },
+  {
+    "text": "time",
+    "start": 173.66,
+    "end": 174.02
+  },
+  {
+    "text": "in",
+    "start": 174.02,
+    "end": 174.2
+  },
+  {
+    "text": "the",
+    "start": 174.2,
+    "end": 174.32
+  },
+  {
+    "text": "hot",
+    "start": 174.32,
+    "end": 174.48
+  },
+  {
+    "text": "hut.",
+    "start": 174.48,
+    "end": 174.78
+  },
+  {
+    "text": "Give",
+    "start": 175.86,
+    "end": 175.94
+  },
+  {
+    "text": "the",
+    "start": 175.94,
+    "end": 176.08
+  },
+  {
+    "text": "grey",
+    "start": 176.12,
+    "end": 176.3
+  },
+  {
+    "text": "goose",
+    "start": 176.3,
+    "end": 176.56
+  },
+  {
+    "text": "a",
+    "start": 176.56,
+    "end": 176.76
+  },
+  {
+    "text": "glass",
+    "start": 176.82,
+    "end": 176.98
+  },
+  {
+    "text": "of",
+    "start": 176.98,
+    "end": 177.28
+  },
+  {
+    "text": "green",
+    "start": 177.38,
+    "end": 177.58
+  },
+  {
+    "text": "grape",
+    "start": 177.58,
+    "end": 177.86
+  },
+  {
+    "text": "juice.",
+    "start": 177.86,
+    "end": 178.24
+  },
+  {
+    "text": "Walk",
+    "start": 179.48,
+    "end": 179.58
+  },
+  {
+    "text": "the",
+    "start": 179.58,
+    "end": 179.78
+  },
+  {
+    "text": "dog",
+    "start": 179.82,
+    "end": 180.06
+  },
+  {
+    "text": "on",
+    "start": 180.06,
+    "end": 180.22
+  },
+  {
+    "text": "the",
+    "start": 180.22,
+    "end": 180.34
+  },
+  {
+    "text": "long",
+    "start": 180.34,
+    "end": 180.56
+  },
+  {
+    "text": "log.",
+    "start": 180.56,
+    "end": 180.9
+  },
+  {
+    "text": "Pop",
+    "start": 182.02,
+    "end": 182.14
+  },
+  {
+    "text": "the",
+    "start": 182.14,
+    "end": 182.34
+  },
+  {
+    "text": "top",
+    "start": 182.34,
+    "end": 182.58
+  },
+  {
+    "text": "of",
+    "start": 182.58,
+    "end": 182.76
+  },
+  {
+    "text": "the",
+    "start": 182.76,
+    "end": 182.9
+  },
+  {
+    "text": "hot",
+    "start": 182.9,
+    "end": 183.02
+  },
+  {
+    "text": "pot.",
+    "start": 183.02,
+    "end": 183.38
+  },
+  {
+    "text": "She",
+    "start": 184.44,
+    "end": 184.52
+  },
+  {
+    "text": "sells",
+    "start": 184.52,
+    "end": 184.8
+  },
+  {
+    "text": "sea",
+    "start": 184.8,
+    "end": 185.04
+  },
+  {
+    "text": "shells",
+    "start": 185.04,
+    "end": 185.34
+  },
+  {
+    "text": "on",
+    "start": 185.34,
+    "end": 185.54
+  },
+  {
+    "text": "the",
+    "start": 185.54,
+    "end": 185.66
+  },
+  {
+    "text": "sea",
+    "start": 185.66,
+    "end": 185.84
+  },
+  {
+    "text": "shore.",
+    "start": 185.84,
+    "end": 186.2
+  },
+  {
+    "text": "Bake",
+    "start": 187.36,
+    "end": 187.48
+  },
+  {
+    "text": "big",
+    "start": 187.48,
+    "end": 187.84
+  },
+  {
+    "text": "brown",
+    "start": 187.94,
+    "end": 188.14
+  },
+  {
+    "text": "biscuits",
+    "start": 188.14,
+    "end": 188.54
+  },
+  {
+    "text": "for",
+    "start": 188.54,
+    "end": 188.86
+  },
+  {
+    "text": "the",
+    "start": 188.86,
+    "end": 188.96
+  },
+  {
+    "text": "busy",
+    "start": 188.96,
+    "end": 189.2
+  },
+  {
+    "text": "bear.",
+    "start": 189.2,
+    "end": 189.52
+  },
+  {
+    "text": "I",
+    "start": 190.6,
+    "end": 190.7
+  },
+  {
+    "text": "saw",
+    "start": 190.7,
+    "end": 190.9
+  },
+  {
+    "text": "Susie",
+    "start": 190.9,
+    "end": 191.32
+  },
+  {
+    "text": "sitting",
+    "start": 191.32,
+    "end": 191.58
+  },
+  {
+    "text": "in",
+    "start": 191.58,
+    "end": 191.72
+  },
+  {
+    "text": "a",
+    "start": 191.72,
+    "end": 191.82
+  },
+  {
+    "text": "shoe",
+    "start": 191.82,
+    "end": 192.0
+  },
+  {
+    "text": "shine",
+    "start": 192.0,
+    "end": 192.34
+  },
+  {
+    "text": "shop.",
+    "start": 192.34,
+    "end": 192.66
+  },
+  {
+    "text": "Fuzzy",
+    "start": 193.86,
+    "end": 194.0
+  },
+  {
+    "text": "Wuzzy",
+    "start": 194.0,
+    "end": 194.28
+  },
+  {
+    "text": "was",
+    "start": 194.28,
+    "end": 194.5
+  },
+  {
+    "text": "a",
+    "start": 194.5,
+    "end": 194.58
+  },
+  {
+    "text": "bear,",
+    "start": 194.58,
+    "end": 194.92
+  },
+  {
+    "text": "Fuzzy",
+    "start": 195.42,
+    "end": 195.56
+  },
+  {
+    "text": "Wuzzy",
+    "start": 195.56,
+    "end": 195.86
+  },
+  {
+    "text": "had",
+    "start": 195.86,
+    "end": 196.08
+  },
+  {
+    "text": "no",
+    "start": 196.08,
+    "end": 196.32
+  },
+  {
+    "text": "hair.",
+    "start": 196.32,
+    "end": 196.7
+  },
+  {
+    "text": "How",
+    "start": 197.8,
+    "end": 197.88
+  },
+  {
+    "text": "much",
+    "start": 197.88,
+    "end": 198.12
+  },
+  {
+    "text": "wood",
+    "start": 198.12,
+    "end": 198.34
+  },
+  {
+    "text": "would",
+    "start": 198.34,
+    "end": 198.5
+  },
+  {
+    "text": "a",
+    "start": 198.6,
+    "end": 198.6
+  },
+  {
+    "text": "woodchuck",
+    "start": 198.6,
+    "end": 198.98
+  },
+  {
+    "text": "chuck",
+    "start": 198.98,
+    "end": 199.28
+  },
+  {
+    "text": "if",
+    "start": 199.28,
+    "end": 199.8
+  },
+  {
+    "text": "a",
+    "start": 199.8,
+    "end": 199.92
+  },
+  {
+    "text": "woodchuck",
+    "start": 199.92,
+    "end": 200.32
+  },
+  {
+    "text": "could",
+    "start": 200.32,
+    "end": 200.54
+  },
+  {
+    "text": "chuck",
+    "start": 200.58,
+    "end": 200.76
+  },
+  {
+    "text": "wood?",
+    "start": 200.76,
+    "end": 201.76
+  },
+  {
+    "text": "Six",
+    "start": 202.4,
+    "end": 202.4
+  },
+  {
+    "text": "sticky",
+    "start": 202.4,
+    "end": 202.78
+  },
+  {
+    "text": "skeletons",
+    "start": 202.78,
+    "end": 203.22
+  },
+  {
+    "text": "sat",
+    "start": 203.22,
+    "end": 203.64
+  },
+  {
+    "text": "on",
+    "start": 203.64,
+    "end": 203.86
+  },
+  {
+    "text": "six",
+    "start": 203.86,
+    "end": 204.08
+  },
+  {
+    "text": "slick",
+    "start": 204.08,
+    "end": 204.36
+  },
+  {
+    "text": "stones.",
+    "start": 204.36,
+    "end": 204.82
+  },
+  {
+    "text": "A",
+    "start": 206.04,
+    "end": 206.04
+  },
+  {
+    "text": "proper",
+    "start": 206.04,
+    "end": 206.3
+  },
+  {
+    "text": "copper",
+    "start": 206.3,
+    "end": 206.78
+  },
+  {
+    "text": "coffee",
+    "start": 206.78,
+    "end": 207.16
+  },
+  {
+    "text": "pot.",
+    "start": 207.16,
+    "end": 207.46
+  },
+  {
+    "text": "Eleven",
+    "start": 208.56,
+    "end": 208.9
+  },
+  {
+    "text": "benevolent",
+    "start": 208.9,
+    "end": 209.68
+  },
+  {
+    "text": "elephants.",
+    "start": 209.68,
+    "end": 209.98
+  },
+  {
+    "text": "Fred",
+    "start": 211.32,
+    "end": 211.46
+  },
+  {
+    "text": "fed",
+    "start": 211.46,
+    "end": 211.68
+  },
+  {
+    "text": "Ted",
+    "start": 211.68,
+    "end": 211.96
+  },
+  {
+    "text": "bread",
+    "start": 211.96,
+    "end": 212.2
+  },
+  {
+    "text": "and",
+    "start": 212.2,
+    "end": 212.68
+  },
+  {
+    "text": "Ted",
+    "start": 212.68,
+    "end": 212.9
+  },
+  {
+    "text": "fed",
+    "start": 212.9,
+    "end": 213.2
+  },
+  {
+    "text": "Fred",
+    "start": 213.2,
+    "end": 213.5
+  },
+  {
+    "text": "bread.",
+    "start": 213.5,
+    "end": 213.9
+  },
+  {
+    "text": "Silly",
+    "start": 215.1,
+    "end": 215.24
+  },
+  {
+    "text": "Sally",
+    "start": 215.24,
+    "end": 215.56
+  },
+  {
+    "text": "swiftly",
+    "start": 215.56,
+    "end": 215.96
+  },
+  {
+    "text": "shooed",
+    "start": 216.0,
+    "end": 216.42
+  },
+  {
+    "text": "seven",
+    "start": 216.42,
+    "end": 216.72
+  },
+  {
+    "text": "silly",
+    "start": 216.72,
+    "end": 217.1
+  },
+  {
+    "text": "sheep.",
+    "start": 217.1,
+    "end": 217.46
+  },
+  {
+    "text": "A",
+    "start": 218.54,
+    "end": 218.62
+  },
+  {
+    "text": "dog",
+    "start": 218.62,
+    "end": 218.86
+  },
+  {
+    "text": "in",
+    "start": 218.86,
+    "end": 219.04
+  },
+  {
+    "text": "a",
+    "start": 219.04,
+    "end": 219.22
+  },
+  {
+    "text": "fog",
+    "start": 219.22,
+    "end": 219.34
+  },
+  {
+    "text": "saw",
+    "start": 219.34,
+    "end": 219.64
+  },
+  {
+    "text": "a",
+    "start": 219.64,
+    "end": 219.86
+  },
+  {
+    "text": "frog",
+    "start": 219.86,
+    "end": 219.94
+  },
+  {
+    "text": "on",
+    "start": 219.94,
+    "end": 220.2
+  },
+  {
+    "text": "a",
+    "start": 220.2,
+    "end": 220.26
+  },
+  {
+    "text": "log.",
+    "start": 220.26,
+    "end": 220.56
+  },
+  {
+    "text": "The",
+    "start": 221.62,
+    "end": 221.72
+  },
+  {
+    "text": "snake",
+    "start": 221.72,
+    "end": 221.98
+  },
+  {
+    "text": "ate",
+    "start": 221.98,
+    "end": 222.18
+  },
+  {
+    "text": "a",
+    "start": 222.18,
+    "end": 222.32
+  },
+  {
+    "text": "cake",
+    "start": 222.38,
+    "end": 222.5
+  },
+  {
+    "text": "by",
+    "start": 222.5,
+    "end": 222.74
+  },
+  {
+    "text": "the",
+    "start": 222.74,
+    "end": 222.88
+  },
+  {
+    "text": "lake.",
+    "start": 222.88,
+    "end": 223.14
+  },
+  {
+    "text": "A",
+    "start": 224.2,
+    "end": 224.26
+  },
+  {
+    "text": "cute",
+    "start": 224.26,
+    "end": 224.5
+  },
+  {
+    "text": "white",
+    "start": 224.5,
+    "end": 224.76
+  },
+  {
+    "text": "goat",
+    "start": 224.76,
+    "end": 225.06
+  },
+  {
+    "text": "in",
+    "start": 225.06,
+    "end": 225.28
+  },
+  {
+    "text": "a",
+    "start": 225.28,
+    "end": 225.38
+  },
+  {
+    "text": "blue",
+    "start": 225.38,
+    "end": 225.6
+  },
+  {
+    "text": "winter",
+    "start": 225.6,
+    "end": 225.96
+  },
+  {
+    "text": "coat.",
+    "start": 225.96,
+    "end": 226.28
+  },
+  {
+    "text": "Ten",
+    "start": 227.34,
+    "end": 227.46
+  },
+  {
+    "text": "men",
+    "start": 227.46,
+    "end": 227.7
+  },
+  {
+    "text": "slept",
+    "start": 227.7,
+    "end": 228.02
+  },
+  {
+    "text": "in",
+    "start": 228.02,
+    "end": 228.32
+  },
+  {
+    "text": "ten",
+    "start": 228.32,
+    "end": 228.48
+  },
+  {
+    "text": "red",
+    "start": 228.52,
+    "end": 228.8
+  },
+  {
+    "text": "tents.",
+    "start": 228.8,
+    "end": 229.5
+  },
+  {
+    "text": "The",
+    "start": 230.36,
+    "end": 230.36
+  },
+  {
+    "text": "duck",
+    "start": 230.36,
+    "end": 230.6
+  },
+  {
+    "text": "in",
+    "start": 230.6,
+    "end": 230.74
+  },
+  {
+    "text": "the",
+    "start": 230.74,
+    "end": 230.84
+  },
+  {
+    "text": "truck",
+    "start": 230.84,
+    "end": 231.06
+  },
+  {
+    "text": "brought",
+    "start": 231.06,
+    "end": 231.4
+  },
+  {
+    "text": "good",
+    "start": 231.4,
+    "end": 231.7
+  },
+  {
+    "text": "luck.",
+    "start": 231.7,
+    "end": 232.04
+  },
+  {
+    "text": "A",
+    "start": 233.18,
+    "end": 233.18
+  },
+  {
+    "text": "brown",
+    "start": 233.18,
+    "end": 233.46
+  },
+  {
+    "text": "mouse",
+    "start": 233.46,
+    "end": 233.78
+  },
+  {
+    "text": "ran",
+    "start": 233.78,
+    "end": 234.1
+  },
+  {
+    "text": "around",
+    "start": 234.1,
+    "end": 234.4
+  },
+  {
+    "text": "the",
+    "start": 234.4,
+    "end": 234.6
+  },
+  {
+    "text": "house.",
+    "start": 234.6,
+    "end": 234.8
+  },
+  {
+    "text": "Sing",
+    "start": 236.06,
+    "end": 236.14
+  },
+  {
+    "text": "a",
+    "start": 236.14,
+    "end": 236.24
+  },
+  {
+    "text": "sweet",
+    "start": 236.24,
+    "end": 236.44
+  },
+  {
+    "text": "song",
+    "start": 236.44,
+    "end": 236.76
+  },
+  {
+    "text": "all",
+    "start": 236.76,
+    "end": 237.06
+  },
+  {
+    "text": "day",
+    "start": 237.06,
+    "end": 237.28
+  },
+  {
+    "text": "long.",
+    "start": 237.28,
+    "end": 237.56
+  },
+  {
+    "text": "Look",
+    "start": 238.72,
+    "end": 238.76
+  },
+  {
+    "text": "at",
+    "start": 238.76,
+    "end": 238.88
+  },
+  {
+    "text": "the",
+    "start": 238.88,
+    "end": 238.98
+  },
+  {
+    "text": "book",
+    "start": 238.98,
+    "end": 239.12
+  },
+  {
+    "text": "near",
+    "start": 239.12,
+    "end": 239.34
+  },
+  {
+    "text": "the",
+    "start": 239.34,
+    "end": 239.5
+  },
+  {
+    "text": "cool",
+    "start": 239.5,
+    "end": 239.76
+  },
+  {
+    "text": "blue",
+    "start": 239.76,
+    "end": 240.1
+  },
+  {
+    "text": "pool.",
+    "start": 240.1,
+    "end": 240.5
+  },
+  {
+    "text": "Bright",
+    "start": 241.78,
+    "end": 241.8
+  },
+  {
+    "text": "white",
+    "start": 241.8,
+    "end": 242.06
+  },
+  {
+    "text": "kites",
+    "start": 242.06,
+    "end": 242.4
+  },
+  {
+    "text": "fly",
+    "start": 242.4,
+    "end": 242.64
+  },
+  {
+    "text": "high",
+    "start": 242.64,
+    "end": 242.96
+  },
+  {
+    "text": "in",
+    "start": 242.96,
+    "end": 243.12
+  },
+  {
+    "text": "the",
+    "start": 243.12,
+    "end": 243.2
+  },
+  {
+    "text": "light.",
+    "start": 243.2,
+    "end": 243.4
+  },
+  {
+    "text": "A",
+    "start": 244.54,
+    "end": 244.56
+  },
+  {
+    "text": "black",
+    "start": 244.56,
+    "end": 244.78
+  },
+  {
+    "text": "cat",
+    "start": 244.78,
+    "end": 245.06
+  },
+  {
+    "text": "sat",
+    "start": 245.06,
+    "end": 245.34
+  },
+  {
+    "text": "in",
+    "start": 245.34,
+    "end": 245.5
+  },
+  {
+    "text": "a",
+    "start": 245.5,
+    "end": 245.6
+  },
+  {
+    "text": "big",
+    "start": 245.6,
+    "end": 245.76
+  },
+  {
+    "text": "black",
+    "start": 245.76,
+    "end": 246.06
+  },
+  {
+    "text": "hat.",
+    "start": 246.06,
+    "end": 246.4
+  },
+  {
+    "text": "Three",
+    "start": 247.56,
+    "end": 247.66
+  },
+  {
+    "text": "thin",
+    "start": 247.66,
+    "end": 247.98
+  },
+  {
+    "text": "thieves",
+    "start": 247.98,
+    "end": 248.3
+  },
+  {
+    "text": "thought",
+    "start": 248.3,
+    "end": 248.62
+  },
+  {
+    "text": "three",
+    "start": 248.62,
+    "end": 248.92
+  },
+  {
+    "text": "thousand",
+    "start": 248.92,
+    "end": 249.34
+  },
+  {
+    "text": "thoughts.",
+    "start": 249.34,
+    "end": 249.94
+  },
+  {
+    "text": "Which",
+    "start": 250.86,
+    "end": 251.0
+  },
+  {
+    "text": "wrist",
+    "start": 251.0,
+    "end": 251.26
+  },
+  {
+    "text": "watches",
+    "start": 251.26,
+    "end": 251.64
+  },
+  {
+    "text": "are",
+    "start": 251.64,
+    "end": 251.9
+  },
+  {
+    "text": "Swiss",
+    "start": 251.9,
+    "end": 252.22
+  },
+  {
+    "text": "wrist",
+    "start": 252.22,
+    "end": 252.58
+  },
+  {
+    "text": "watches?",
+    "start": 252.58,
+    "end": 252.9
+  },
+  {
+    "text": "Vincent",
+    "start": 254.34,
+    "end": 254.5
+  },
+  {
+    "text": "vowed",
+    "start": 254.5,
+    "end": 255.02
+  },
+  {
+    "text": "to",
+    "start": 255.02,
+    "end": 255.08
+  },
+  {
+    "text": "voice",
+    "start": 255.08,
+    "end": 255.34
+  },
+  {
+    "text": "his",
+    "start": 255.34,
+    "end": 255.54
+  },
+  {
+    "text": "various",
+    "start": 255.54,
+    "end": 255.92
+  },
+  {
+    "text": "views.",
+    "start": 255.92,
+    "end": 256.3
+  },
+  {
+    "text": "Where",
+    "start": 257.5,
+    "end": 257.62
+  },
+  {
+    "text": "is",
+    "start": 257.62,
+    "end": 257.76
+  },
+  {
+    "text": "the",
+    "start": 257.76,
+    "end": 257.88
+  },
+  {
+    "text": "white",
+    "start": 257.88,
+    "end": 258.14
+  },
+  {
+    "text": "whale",
+    "start": 258.34,
+    "end": 258.5
+  },
+  {
+    "text": "in",
+    "start": 258.5,
+    "end": 258.66
+  },
+  {
+    "text": "the",
+    "start": 258.66,
+    "end": 258.76
+  },
+  {
+    "text": "wide",
+    "start": 258.76,
+    "end": 259.04
+  },
+  {
+    "text": "ocean?",
+    "start": 259.04,
+    "end": 259.44
+  },
+  {
+    "text": "Larry",
+    "start": 260.64,
+    "end": 260.86
+  },
+  {
+    "text": "sent",
+    "start": 260.86,
+    "end": 261.12
+  },
+  {
+    "text": "the",
+    "start": 261.12,
+    "end": 261.3
+  },
+  {
+    "text": "royal",
+    "start": 261.3,
+    "end": 261.58
+  },
+  {
+    "text": "letter",
+    "start": 261.58,
+    "end": 261.9
+  },
+  {
+    "text": "to",
+    "start": 261.9,
+    "end": 262.14
+  },
+  {
+    "text": "the",
+    "start": 262.14,
+    "end": 262.26
+  },
+  {
+    "text": "lawyer.",
+    "start": 262.26,
+    "end": 262.5
+  },
+  {
+    "text": "The",
+    "start": 263.72,
+    "end": 263.72
+  },
+  {
+    "text": "chef",
+    "start": 263.72,
+    "end": 263.88
+  },
+  {
+    "text": "in",
+    "start": 263.88,
+    "end": 264.06
+  },
+  {
+    "text": "the",
+    "start": 264.06,
+    "end": 264.18
+  },
+  {
+    "text": "shop",
+    "start": 264.18,
+    "end": 264.36
+  },
+  {
+    "text": "cut",
+    "start": 264.36,
+    "end": 264.7
+  },
+  {
+    "text": "the",
+    "start": 264.7,
+    "end": 264.88
+  },
+  {
+    "text": "cheap",
+    "start": 264.88,
+    "end": 265.1
+  },
+  {
+    "text": "cheese.",
+    "start": 265.1,
+    "end": 265.48
+  },
+  {
+    "text": "A",
+    "start": 266.6,
+    "end": 266.66
+  },
+  {
+    "text": "fan",
+    "start": 266.66,
+    "end": 266.9
+  },
+  {
+    "text": "of",
+    "start": 266.9,
+    "end": 267.06
+  },
+  {
+    "text": "a",
+    "start": 267.06,
+    "end": 267.16
+  },
+  {
+    "text": "van",
+    "start": 267.16,
+    "end": 267.44
+  },
+  {
+    "text": "blew",
+    "start": 267.44,
+    "end": 267.72
+  },
+  {
+    "text": "the",
+    "start": 267.72,
+    "end": 267.92
+  },
+  {
+    "text": "flour",
+    "start": 267.92,
+    "end": 268.26
+  },
+  {
+    "text": "in",
+    "start": 268.26,
+    "end": 268.48
+  },
+  {
+    "text": "the",
+    "start": 268.48,
+    "end": 268.56
+  },
+  {
+    "text": "pan.",
+    "start": 268.56,
+    "end": 268.66
+  },
+  {
+    "text": "The",
+    "start": 269.84,
+    "end": 270.02
+  },
+  {
+    "text": "king",
+    "start": 270.1,
+    "end": 270.22
+  },
+  {
+    "text": "will",
+    "start": 270.22,
+    "end": 270.4
+  },
+  {
+    "text": "sing",
+    "start": 270.4,
+    "end": 270.62
+  },
+  {
+    "text": "a",
+    "start": 270.62,
+    "end": 270.78
+  },
+  {
+    "text": "long",
+    "start": 270.78,
+    "end": 271.02
+  },
+  {
+    "text": "song",
+    "start": 271.02,
+    "end": 271.36
+  },
+  {
+    "text": "tonight.",
+    "start": 271.36,
+    "end": 271.8
+  },
+  {
+    "text": "He",
+    "start": 272.86,
+    "end": 272.96
+  },
+  {
+    "text": "hit",
+    "start": 272.96,
+    "end": 273.14
+  },
+  {
+    "text": "the",
+    "start": 273.14,
+    "end": 273.32
+  },
+  {
+    "text": "big",
+    "start": 273.32,
+    "end": 273.52
+  },
+  {
+    "text": "ball",
+    "start": 273.54,
+    "end": 273.84
+  },
+  {
+    "text": "with",
+    "start": 273.84,
+    "end": 274.12
+  },
+  {
+    "text": "a",
+    "start": 274.12,
+    "end": 274.22
+  },
+  {
+    "text": "heavy",
+    "start": 274.22,
+    "end": 274.44
+  },
+  {
+    "text": "bat.",
+    "start": 274.44,
+    "end": 274.78
+  },
+  {
+    "text": "The",
+    "start": 275.88,
+    "end": 275.96
+  },
+  {
+    "text": "thick",
+    "start": 275.96,
+    "end": 276.22
+  },
+  {
+    "text": "thorn",
+    "start": 276.32,
+    "end": 276.52
+  },
+  {
+    "text": "stuck",
+    "start": 276.52,
+    "end": 276.84
+  },
+  {
+    "text": "in",
+    "start": 276.84,
+    "end": 277.02
+  },
+  {
+    "text": "the",
+    "start": 277.02,
+    "end": 277.12
+  },
+  {
+    "text": "thin",
+    "start": 277.12,
+    "end": 277.36
+  },
+  {
+    "text": "thumb.",
+    "start": 277.36,
+    "end": 277.76
+  },
+  {
+    "text": "A",
+    "start": 278.84,
+    "end": 278.9
+  },
+  {
+    "text": "noisy",
+    "start": 278.9,
+    "end": 279.18
+  },
+  {
+    "text": "noise",
+    "start": 279.18,
+    "end": 279.58
+  },
+  {
+    "text": "annoys",
+    "start": 279.58,
+    "end": 280.06
+  },
+  {
+    "text": "an",
+    "start": 280.06,
+    "end": 280.18
+  },
+  {
+    "text": "oyster.",
+    "start": 280.18,
+    "end": 281.18
+  },
+  {
+    "text": "Brisk",
+    "start": 281.72,
+    "end": 281.96
+  },
+  {
+    "text": "brisk",
+    "start": 281.96,
+    "end": 282.34
+  },
+  {
+    "text": "wind",
+    "start": 282.44,
+    "end": 282.7
+  },
+  {
+    "text": "blows",
+    "start": 282.7,
+    "end": 283.0
+  },
+  {
+    "text": "through",
+    "start": 283.0,
+    "end": 283.36
+  },
+  {
+    "text": "the",
+    "start": 283.36,
+    "end": 283.5
+  },
+  {
+    "text": "blue",
+    "start": 283.5,
+    "end": 283.7
+  },
+  {
+    "text": "branches.",
+    "start": 283.7,
+    "end": 284.04
+  },
+  {
+    "text": "Chester",
+    "start": 285.36,
+    "end": 285.6
+  },
+  {
+    "text": "chooses",
+    "start": 285.6,
+    "end": 285.98
+  },
+  {
+    "text": "cheap",
+    "start": 285.98,
+    "end": 286.32
+  },
+  {
+    "text": "cheese",
+    "start": 286.32,
+    "end": 286.7
+  },
+  {
+    "text": "to",
+    "start": 286.74,
+    "end": 286.84
+  },
+  {
+    "text": "chew.",
+    "start": 286.84,
+    "end": 287.79
+  },
+  {
+    "text": "Dark",
+    "start": 288.5,
+    "end": 288.5
+  },
+  {
+    "text": "ducks",
+    "start": 288.56,
+    "end": 288.76
+  },
+  {
+    "text": "dive",
+    "start": 288.76,
+    "end": 289.02
+  },
+  {
+    "text": "deep",
+    "start": 289.02,
+    "end": 289.36
+  },
+  {
+    "text": "down",
+    "start": 289.36,
+    "end": 289.72
+  },
+  {
+    "text": "into",
+    "start": 289.72,
+    "end": 289.94
+  },
+  {
+    "text": "the",
+    "start": 289.94,
+    "end": 290.08
+  },
+  {
+    "text": "pond.",
+    "start": 290.08,
+    "end": 290.73
+  },
+  {
+    "text": "Eight",
+    "start": 291.58,
+    "end": 291.72
+  },
+  {
+    "text": "eager",
+    "start": 291.72,
+    "end": 292.02
+  },
+  {
+    "text": "eagles",
+    "start": 292.02,
+    "end": 292.34
+  },
+  {
+    "text": "ate",
+    "start": 292.34,
+    "end": 292.6
+  },
+  {
+    "text": "early",
+    "start": 292.74,
+    "end": 293.0
+  },
+  {
+    "text": "apples.",
+    "start": 293.0,
+    "end": 293.32
+  },
+  {
+    "text": "Four",
+    "start": 294.78,
+    "end": 294.8
+  },
+  {
+    "text": "furious",
+    "start": 294.8,
+    "end": 295.22
+  },
+  {
+    "text": "friends",
+    "start": 295.22,
+    "end": 295.62
+  },
+  {
+    "text": "fought",
+    "start": 295.62,
+    "end": 295.96
+  },
+  {
+    "text": "for",
+    "start": 295.96,
+    "end": 296.16
+  },
+  {
+    "text": "free",
+    "start": 296.28,
+    "end": 296.38
+  },
+  {
+    "text": "fruit.",
+    "start": 296.38,
+    "end": 297.23
+  },
+  {
+    "text": "Good",
+    "start": 297.86,
+    "end": 297.96
+  },
+  {
+    "text": "gray",
+    "start": 297.96,
+    "end": 298.24
+  },
+  {
+    "text": "geese",
+    "start": 298.24,
+    "end": 298.64
+  },
+  {
+    "text": "glide",
+    "start": 298.64,
+    "end": 298.92
+  },
+  {
+    "text": "gracefully",
+    "start": 298.92,
+    "end": 299.66
+  },
+  {
+    "text": "over",
+    "start": 299.88,
+    "end": 299.98
+  },
+  {
+    "text": "green",
+    "start": 299.98,
+    "end": 300.3
+  },
+  {
+    "text": "grass.",
+    "start": 300.3,
+    "end": 300.64
+  },
+  {
+    "text": "Harry",
+    "start": 301.92,
+    "end": 302.12
+  },
+  {
+    "text": "has",
+    "start": 302.12,
+    "end": 302.32
+  },
+  {
+    "text": "a",
+    "start": 302.32,
+    "end": 302.44
+  },
+  {
+    "text": "heavy",
+    "start": 302.44,
+    "end": 302.72
+  },
+  {
+    "text": "hat",
+    "start": 302.72,
+    "end": 303.02
+  },
+  {
+    "text": "on",
+    "start": 303.02,
+    "end": 303.2
+  },
+  {
+    "text": "his",
+    "start": 303.2,
+    "end": 303.36
+  },
+  {
+    "text": "head.",
+    "start": 303.36,
+    "end": 303.58
+  },
+  {
+    "text": "Itchy",
+    "start": 304.68,
+    "end": 304.9
+  },
+  {
+    "text": "insects",
+    "start": 304.9,
+    "end": 305.28
+  },
+  {
+    "text": "itch",
+    "start": 305.28,
+    "end": 305.72
+  },
+  {
+    "text": "in",
+    "start": 305.72,
+    "end": 305.8
+  },
+  {
+    "text": "the",
+    "start": 305.8,
+    "end": 305.96
+  },
+  {
+    "text": "ink.",
+    "start": 305.96,
+    "end": 306.18
+  },
+  {
+    "text": "Jack",
+    "start": 307.34,
+    "end": 307.5
+  },
+  {
+    "text": "juggling",
+    "start": 307.5,
+    "end": 307.88
+  },
+  {
+    "text": "juice",
+    "start": 307.88,
+    "end": 308.16
+  },
+  {
+    "text": "jars",
+    "start": 308.16,
+    "end": 308.58
+  },
+  {
+    "text": "in",
+    "start": 308.58,
+    "end": 308.84
+  },
+  {
+    "text": "June.",
+    "start": 308.84,
+    "end": 309.2
+  },
+  {
+    "text": "Kittens",
+    "start": 310.36,
+    "end": 310.54
+  },
+  {
+    "text": "kick",
+    "start": 310.54,
+    "end": 310.78
+  },
+  {
+    "text": "small",
+    "start": 310.78,
+    "end": 311.18
+  },
+  {
+    "text": "colorful",
+    "start": 311.18,
+    "end": 311.68
+  },
+  {
+    "text": "balls",
+    "start": 311.76,
+    "end": 312.02
+  },
+  {
+    "text": "in",
+    "start": 312.02,
+    "end": 312.32
+  },
+  {
+    "text": "the",
+    "start": 312.32,
+    "end": 312.42
+  },
+  {
+    "text": "kitchen.",
+    "start": 312.42,
+    "end": 312.82
+  },
+  {
+    "text": "Little",
+    "start": 313.92,
+    "end": 314.04
+  },
+  {
+    "text": "Luke",
+    "start": 314.04,
+    "end": 314.24
+  },
+  {
+    "text": "likes",
+    "start": 314.24,
+    "end": 314.48
+  },
+  {
+    "text": "licking",
+    "start": 314.48,
+    "end": 314.94
+  },
+  {
+    "text": "lemon",
+    "start": 314.94,
+    "end": 315.26
+  },
+  {
+    "text": "lollipops.",
+    "start": 315.26,
+    "end": 315.74
+  },
+  {
+    "text": "Many",
+    "start": 317.34,
+    "end": 317.34
+  },
+  {
+    "text": "merry",
+    "start": 317.34,
+    "end": 317.7
+  },
+  {
+    "text": "monkeys",
+    "start": 317.7,
+    "end": 318.08
+  },
+  {
+    "text": "make",
+    "start": 318.08,
+    "end": 318.42
+  },
+  {
+    "text": "much",
+    "start": 318.42,
+    "end": 318.68
+  },
+  {
+    "text": "music.",
+    "start": 318.68,
+    "end": 319.08
+  },
+  {
+    "text": "New",
+    "start": 320.34,
+    "end": 320.34
+  },
+  {
+    "text": "brown",
+    "start": 320.34,
+    "end": 320.68
+  },
+  {
+    "text": "mice",
+    "start": 320.68,
+    "end": 321.0
+  },
+  {
+    "text": "neat",
+    "start": 321.0,
+    "end": 321.28
+  },
+  {
+    "text": "in",
+    "start": 321.28,
+    "end": 321.4
+  },
+  {
+    "text": "their",
+    "start": 321.4,
+    "end": 321.54
+  },
+  {
+    "text": "nest.",
+    "start": 321.54,
+    "end": 321.76
+  },
+  {
+    "text": "Old",
+    "start": 322.96,
+    "end": 323.12
+  },
+  {
+    "text": "orange",
+    "start": 323.12,
+    "end": 323.44
+  },
+  {
+    "text": "owls",
+    "start": 323.44,
+    "end": 323.88
+  },
+  {
+    "text": "open",
+    "start": 324.04,
+    "end": 324.14
+  },
+  {
+    "text": "one",
+    "start": 324.14,
+    "end": 324.44
+  },
+  {
+    "text": "big",
+    "start": 324.44,
+    "end": 324.72
+  },
+  {
+    "text": "eye.",
+    "start": 324.72,
+    "end": 324.98
+  },
+  {
+    "text": "Pink",
+    "start": 326.1,
+    "end": 326.24
+  },
+  {
+    "text": "paper",
+    "start": 326.24,
+    "end": 326.62
+  },
+  {
+    "text": "pigs",
+    "start": 326.62,
+    "end": 326.92
+  },
+  {
+    "text": "play",
+    "start": 326.92,
+    "end": 327.26
+  },
+  {
+    "text": "in",
+    "start": 327.26,
+    "end": 327.44
+  },
+  {
+    "text": "the",
+    "start": 327.44,
+    "end": 327.52
+  },
+  {
+    "text": "park.",
+    "start": 327.52,
+    "end": 327.82
+  },
+  {
+    "text": "Quick",
+    "start": 328.96,
+    "end": 329.0
+  },
+  {
+    "text": "queen",
+    "start": 329.0,
+    "end": 329.36
+  },
+  {
+    "text": "quacks",
+    "start": 329.36,
+    "end": 329.68
+  },
+  {
+    "text": "to",
+    "start": 329.68,
+    "end": 329.9
+  },
+  {
+    "text": "the",
+    "start": 329.9,
+    "end": 329.98
+  },
+  {
+    "text": "quiet",
+    "start": 329.98,
+    "end": 330.28
+  },
+  {
+    "text": "duck.",
+    "start": 330.28,
+    "end": 330.62
+  },
+  {
+    "text": "Round",
+    "start": 331.78,
+    "end": 331.98
+  },
+  {
+    "text": "red",
+    "start": 331.98,
+    "end": 332.26
+  },
+  {
+    "text": "roses",
+    "start": 332.26,
+    "end": 332.64
+  },
+  {
+    "text": "grow",
+    "start": 332.64,
+    "end": 333.02
+  },
+  {
+    "text": "near",
+    "start": 333.02,
+    "end": 333.3
+  },
+  {
+    "text": "the",
+    "start": 333.3,
+    "end": 333.48
+  },
+  {
+    "text": "river.",
+    "start": 333.48,
+    "end": 333.7
+  },
+  {
+    "text": "Seven",
+    "start": 334.98,
+    "end": 335.1
+  },
+  {
+    "text": "silver",
+    "start": 335.1,
+    "end": 335.52
+  },
+  {
+    "text": "swans",
+    "start": 335.52,
+    "end": 336.0
+  },
+  {
+    "text": "swam",
+    "start": 336.0,
+    "end": 336.38
+  },
+  {
+    "text": "silently",
+    "start": 336.38,
+    "end": 336.82
+  },
+  {
+    "text": "south.",
+    "start": 336.82,
+    "end": 337.92
+  },
+  {
+    "text": "Two",
+    "start": 338.38,
+    "end": 338.46
+  },
+  {
+    "text": "tall",
+    "start": 338.46,
+    "end": 338.72
+  },
+  {
+    "text": "trees",
+    "start": 338.72,
+    "end": 339.1
+  },
+  {
+    "text": "touch",
+    "start": 339.1,
+    "end": 339.44
+  },
+  {
+    "text": "the",
+    "start": 339.44,
+    "end": 339.68
+  },
+  {
+    "text": "top",
+    "start": 339.72,
+    "end": 339.84
+  },
+  {
+    "text": "of",
+    "start": 339.84,
+    "end": 339.98
+  },
+  {
+    "text": "the",
+    "start": 339.98,
+    "end": 340.1
+  },
+  {
+    "text": "tower.",
+    "start": 340.1,
+    "end": 340.44
+  },
+  {
+    "text": "Uncle's",
+    "start": 341.54,
+    "end": 341.96
+  },
+  {
+    "text": "unique",
+    "start": 341.96,
+    "end": 342.24
+  },
+  {
+    "text": "umbrella",
+    "start": 342.24,
+    "end": 342.9
+  },
+  {
+    "text": "under",
+    "start": 342.9,
+    "end": 343.3
+  },
+  {
+    "text": "the",
+    "start": 343.3,
+    "end": 343.44
+  },
+  {
+    "text": "tree.",
+    "start": 343.44,
+    "end": 343.76
+  },
+  {
+    "text": "Vast",
+    "start": 344.92,
+    "end": 345.2
+  },
+  {
+    "text": "green",
+    "start": 345.5,
+    "end": 345.5
+  },
+  {
+    "text": "vines",
+    "start": 345.5,
+    "end": 345.94
+  },
+  {
+    "text": "grow",
+    "start": 345.94,
+    "end": 346.22
+  },
+  {
+    "text": "in",
+    "start": 346.22,
+    "end": 346.4
+  },
+  {
+    "text": "the",
+    "start": 346.4,
+    "end": 346.48
+  },
+  {
+    "text": "valley.",
+    "start": 346.48,
+    "end": 346.78
+  },
+  {
+    "text": "Warm",
+    "start": 348.02,
+    "end": 348.2
+  },
+  {
+    "text": "winter",
+    "start": 348.2,
+    "end": 348.54
+  },
+  {
+    "text": "winds",
+    "start": 348.54,
+    "end": 348.9
+  },
+  {
+    "text": "blow",
+    "start": 348.9,
+    "end": 349.18
+  },
+  {
+    "text": "wild",
+    "start": 349.18,
+    "end": 349.7
+  },
+  {
+    "text": "and",
+    "start": 349.7,
+    "end": 349.86
+  },
+  {
+    "text": "wide.",
+    "start": 349.86,
+    "end": 350.16
+  },
+  {
+    "text": "Yellow",
+    "start": 351.42,
+    "end": 351.52
+  },
+  {
+    "text": "yaks",
+    "start": 351.52,
+    "end": 351.88
+  },
+  {
+    "text": "yawn",
+    "start": 351.88,
+    "end": 352.24
+  },
+  {
+    "text": "in",
+    "start": 352.24,
+    "end": 352.3
+  },
+  {
+    "text": "the",
+    "start": 352.3,
+    "end": 352.4
+  },
+  {
+    "text": "yard.",
+    "start": 352.4,
+    "end": 352.7
+  },
+  {
+    "text": "Zebras",
+    "start": 353.92,
+    "end": 354.16
+  },
+  {
+    "text": "zig",
+    "start": 354.16,
+    "end": 354.46
+  },
+  {
+    "text": "and",
+    "start": 354.46,
+    "end": 354.74
+  },
+  {
+    "text": "zag",
+    "start": 354.74,
+    "end": 355.0
+  },
+  {
+    "text": "in",
+    "start": 355.0,
+    "end": 355.24
+  },
+  {
+    "text": "the",
+    "start": 355.24,
+    "end": 355.34
+  },
+  {
+    "text": "zoo.",
+    "start": 355.34,
+    "end": 355.58
+  },
+  {
+    "text": "The",
+    "start": 356.68,
+    "end": 356.74
+  },
+  {
+    "text": "fat",
+    "start": 356.74,
+    "end": 357.02
+  },
+  {
+    "text": "bat",
+    "start": 357.02,
+    "end": 357.26
+  },
+  {
+    "text": "ate",
+    "start": 357.26,
+    "end": 357.4
+  },
+  {
+    "text": "a",
+    "start": 357.4,
+    "end": 357.48
+  },
+  {
+    "text": "black",
+    "start": 357.48,
+    "end": 357.72
+  },
+  {
+    "text": "rat.",
+    "start": 357.72,
+    "end": 358.06
+  },
+  {
+    "text": "A",
+    "start": 359.12,
+    "end": 359.2
+  },
+  {
+    "text": "sweet",
+    "start": 359.2,
+    "end": 359.46
+  },
+  {
+    "text": "peach",
+    "start": 359.46,
+    "end": 359.74
+  },
+  {
+    "text": "on",
+    "start": 359.74,
+    "end": 359.94
+  },
+  {
+    "text": "a",
+    "start": 359.94,
+    "end": 360.04
+  },
+  {
+    "text": "clean",
+    "start": 360.04,
+    "end": 360.32
+  },
+  {
+    "text": "beach.",
+    "start": 360.32,
+    "end": 360.66
+  },
+  {
+    "text": "Light",
+    "start": 361.92,
+    "end": 361.94
+  },
+  {
+    "text": "the",
+    "start": 361.94,
+    "end": 362.14
+  },
+  {
+    "text": "bright",
+    "start": 362.14,
+    "end": 362.38
+  },
+  {
+    "text": "white",
+    "start": 362.38,
+    "end": 362.7
+  },
+  {
+    "text": "light",
+    "start": 362.7,
+    "end": 362.94
+  },
+  {
+    "text": "tonight.",
+    "start": 362.94,
+    "end": 363.3
+  },
+  {
+    "text": "The",
+    "start": 364.38,
+    "end": 364.46
+  },
+  {
+    "text": "cold",
+    "start": 364.5,
+    "end": 364.82
+  },
+  {
+    "text": "toad",
+    "start": 364.82,
+    "end": 365.34
+  },
+  {
+    "text": "on",
+    "start": 365.34,
+    "end": 365.42
+  },
+  {
+    "text": "the",
+    "start": 365.42,
+    "end": 365.54
+  },
+  {
+    "text": "road",
+    "start": 365.54,
+    "end": 365.76
+  },
+  {
+    "text": "in",
+    "start": 365.76,
+    "end": 366.0
+  },
+  {
+    "text": "the",
+    "start": 366.0,
+    "end": 366.08
+  },
+  {
+    "text": "snow.",
+    "start": 366.08,
+    "end": 366.44
+  },
+  {
+    "text": "Run",
+    "start": 367.6,
+    "end": 367.7
+  },
+  {
+    "text": "in",
+    "start": 367.7,
+    "end": 367.82
+  },
+  {
+    "text": "the",
+    "start": 367.82,
+    "end": 367.94
+  },
+  {
+    "text": "sun",
+    "start": 367.94,
+    "end": 368.16
+  },
+  {
+    "text": "for",
+    "start": 368.16,
+    "end": 368.36
+  },
+  {
+    "text": "fun",
+    "start": 368.56,
+    "end": 368.66
+  },
+  {
+    "text": "with",
+    "start": 368.66,
+    "end": 368.88
+  },
+  {
+    "text": "a",
+    "start": 368.88,
+    "end": 369.0
+  },
+  {
+    "text": "bun.",
+    "start": 369.0,
+    "end": 369.26
+  }
+]
